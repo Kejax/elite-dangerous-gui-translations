@@ -24,6 +24,7 @@ export default {
     "riches": {
         "title": "Elite Dangerous Road 2 Riches",
         "blank": "Leave this blank in order to create a circular tour starting at your Source System and returning there at the end.",
+        "warning": "Please make sure you have a Detailed Surface Scanner equipped before embarking on a trip.  Your rewards will be substantially lower than you expect if you do not."
     },
     "fields": {
         "source_system": "Source System",
@@ -37,7 +38,7 @@ export default {
         "maximum_bodies": "Maximum Bodies",
         "maximum_bodies_description": "This is maximum number of valuable worlds that the plotter will route you through, lower this for a shorter trip.",
         "maximum_distance": "Maximum distance to arrival (LS)",
-        "minimum_scan_value": "Minimum svan value",
+        "minimum_scan_value": "Minimum scan value",
         "efficiency": "Efficiency (%)",
         "efficiency_description": "Increase this to reduce how far off the direct route the system will plot to get to a neutron star (An efficiency of 100 will not deviate from the direct route in order to plot from A to B and will most likely break down the journey into 20000 LY blocks).",
         "main_fields": "Main Fields (Click to collapse)",
@@ -97,7 +98,7 @@ export default {
         "jumps": "Jumps",
         "jumps_description": "Estimated number of jumps to this system.",
         "terraforming_short": "Terra",
-        "terraforming_dscription": "Is the body a terraformable candidate?",
+        "terraforming_description": "Is the body a terraformable candidate?",
     },
     "results": {
         "copy_to_clipboard": "Copy to clipboard",
