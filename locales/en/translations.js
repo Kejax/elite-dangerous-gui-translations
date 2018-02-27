@@ -7,6 +7,8 @@ export default {
     "and": "and",
     "yes": "Yes",
     "navigation": {
+        "language": "Language",
+        "theme": "Theme",
         "plotter": "Plotter",
         "nearest": "Nearest known system",
         "map": "Neutron star map",
