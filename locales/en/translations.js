@@ -26,6 +26,12 @@ export default {
         "blank": "Leave this blank in order to create a circular tour starting at your Source System and returning there at the end.",
         "warning": "Please make sure you have a Detailed Surface Scanner equipped before embarking on a trip.  Your rewards will be substantially lower than you expect if you do not."
     },
+    "fields_help": {
+        "system_name": "Use this to filter for bodies in a system with a word matching ie Col would match Col 285 Sector IY-W b16-6 but not Colonia.",
+        "body_name": "Use this to filter for bodies with a name matching ie Sol would match Sol but not Solati 6.",
+        "reference_system": "Use this to indicate which system you want to search relative to (for distances etc).",
+        "reference_coords": "Use this instead of Reference System to indicate which coordinates you want to search relative to (for distances etc)."
+    },
     "fields": {
         "source_system": "Source System",
         "destination_system": "Destination System",
@@ -48,6 +54,7 @@ export default {
         "system_name": "System Name",
         "name": "Name",
         "reference_coordinates": "Reference Coordinates",
+        "reference_system": "Reference System",
         "x_coordinate": "X Coordinate",
         "y_coordinate": "Y Coordinate",
         "z_coordinate": "Z Coordinate",
