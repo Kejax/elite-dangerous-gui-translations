@@ -1,8 +1,8 @@
 export default {
-    "thanks": 'Thanks to the following sites for providing the data which powers this website',
-    "copyright": 'Copyright 2017 Gareth Harper',
-    "forum_features": 'If you have feature requests or find bugs you can visit the forum thread for this tool',
-    "email_features": 'or you can email',
+    "thanks": "Thanks to the following sites for providing the data which powers this website",
+    "copyright": "Copyright 2018 Gareth Harper",
+    "forum_features": "If you have feature requests or find bugs you can visit the forum thread for this tool",
+    "email_features": "or you can email",
     "here": "here",
     "and": "and",
     "yes": "Yes",
@@ -21,7 +21,7 @@ export default {
     "plotter": {
         "title": "Elite Dangerous Neutron Router",
         "description": "This page will allow you to plot between two different star systems.  The result will show you every time you need to go to the galaxy map in order to plot a new route (for instance when you are at a neutron star).  It will prioritise neutron stars so should be avoided for journeys which are lower than 500 light years (It will likely try to route you to Jackson's Lighthouse first if you're in the bubble).",
-        "warning": "If you have a low maximum range (10-20 LY) you may end up using a boosted jump into a system which you do not have enough range to jump out of.  You should be careful when plotting using this and check that you can get out of the system when you are on the galaxy map.",
+        "warning": "If you have a low maximum range (10-20 LY) you may end up using a boosted jump into a system which you do not have enough range to jump out of.  You should be careful when plotting using this and check that you can get out of the system when you are on the galaxy map."
     },
     "riches": {
         "title": "Elite Dangerous Road 2 Riches",
@@ -122,7 +122,7 @@ export default {
         "needs_permit": "Needs Permit",
         "population": "Population",
         "faction_presence": "Faction Presence",
-        "select_faction_presence": "Select faction presence",
+        "select_faction_presence": "Select faction presence"
     },
     "results": {
         "copy_to_clipboard": "Copy to clipboard",
@@ -140,12 +140,11 @@ export default {
         "results": "Results",
         "galaxy_map_visits": "Number of visits to the galaxy map required: {{total_visits}}",
         "show_route": "Show Route",
-        "totals": "Totals",
+        "totals": "Totals"
     },
     "nearest": {
         "title": "Nearest Known System",
-        "description": "This page will allow you find the nearest known system to a set of coordinates.",
-
+        "description": "This page will allow you find the nearest known system to a set of coordinates."
     },
     "sorting": {
         "asc": "Ascending",
@@ -280,14 +279,14 @@ export default {
         "Cooperative": "Cooperative",
         "Communism": "Communism",
         "Theocracy": "Theocracy",
-        "Prison Colony": "Prison Colony",
+        "Prison Colony": "Prison Colony"
     },
     "allegiance": {
         "None": "None",
         "Independent": "Independent",
         "Federation": "Federation",
         "Empire": "Empire",
-        "Alliance": "Alliance",
+        "Alliance": "Alliance"
     },
     "state": {
         "None": "None",
@@ -302,14 +301,14 @@ export default {
         "Election": "Election",
         "Lockdown": "Lockdown",
         "Investment": "Investment",
-        "Bust": "Bust",
+        "Bust": "Bust"
     },
     "security": {
         "Low": "Low",
         "Anarchy": "Anarchy",
         "Medium": "Medium",
         "High": "High",
-        "Lawless": "Lawless",
+        "Lawless": "Lawless"
     },
     "economy": {
         "None": "None",
@@ -322,6 +321,6 @@ export default {
         "Terraforming": "Terraforming",
         "High Tech": "High Tech",
         "Tourism": "Tourism",
-        "Service": "Service",
-    },
+        "Service": "Service"
+    }
 };

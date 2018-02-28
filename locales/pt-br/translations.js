@@ -1,8 +1,8 @@
 export default {
-    "thanks": 'Agradeço aos sites a seguir por providenciar os dados que alimentam esse website',
-    "copyright": 'Copyright 2017 Gareth Harper',
-    "forum_features": 'Se você tiver solicitações de recursos ou encontrar bugs, você pode visitar a discussão no fórum para essa ferramenta',
-    "email_features": 'ou você pode mandar um e-mail',
+    "thanks": "Agradeço aos sites a seguir por providenciar os dados que alimentam esse website",
+    "copyright": "Copyright 2018 Gareth Harper",
+    "forum_features": "Se você tiver solicitações de recursos ou encontrar bugs, você pode visitar a discussão no fórum para essa ferramenta",
+    "email_features": "ou você pode mandar um e-mail",
     "here": "aqui",
     "and": "e",
     "yes": "Sim",
@@ -19,7 +19,7 @@ export default {
     "plotter": {
         "title": "Calculador de rotas de estrelas de nêutron",
         "description": "Essa página permite que você calcule a rota entre dois sistemas estelares diferentes. O resultado irá mostrar toda vez em que o mapa da galáxia deve ser aberto para calcular uma nova rota (por exemplo, quando estiver em uma estrela de nêutron). Estrelas de nêutron serão priorizadas, dessa forma essa ferramenta deve ser evitada caso a jornada tenha menos de 500 anos-luz (Você bem provavelmente será redirecionado para Jackson's Lighthouse primeiro se estiver na bolha da civilização).",
-        "warning": "Se a sua capacidade máxima de salto for baixa (10-20 AL) você pode acabar usando a supercarga da estrela para pular para um sistema que você não conseguirá sair. Você deve ser cuidadoso ao usar essa ferramenta e verificar se é possível sair do sistema quando estiver no mapa da galáxia.",
+        "warning": "Se a sua capacidade máxima de salto for baixa (10-20 AL) você pode acabar usando a supercarga da estrela para pular para um sistema que você não conseguirá sair. Você deve ser cuidadoso ao usar essa ferramenta e verificar se é possível sair do sistema quando estiver no mapa da galáxia."
     },
     "riches": {
         "title": "Elite Dangerous Caminho para as Riquezas",
@@ -98,7 +98,7 @@ export default {
         "jumps": "Saltos",
         "jumps_description": "Número estimado de saltos para esse sistema.",
         "terraforming_short": "Terra",
-        "terraforming_description": "Esse corpo é candidato à terraformação?",
+        "terraforming_description": "Esse corpo é candidato à terraformação?"
     },
     "results": {
         "copy_to_clipboard": "Copiar para a área de transferência",
@@ -116,12 +116,11 @@ export default {
         "results": "Resultados",
         "galaxy_map_visits": "Números de visitas ao mapa da galáxia necessárias: {{total_visits}}",
         "show_route": "Mostrar rota",
-        "totals": "Totais",
+        "totals": "Totais"
     },
     "nearest": {
         "title": "Sistema conhecido mais próximo",
-        "description": "Essa página permite encontrar o sistema conhecido mais próximo a um conjunto de coordenadas.",
-
+        "description": "Essa página permite encontrar o sistema conhecido mais próximo a um conjunto de coordenadas."
     },
     "sorting": {
         "asc": "Ascendente",
@@ -243,6 +242,5 @@ export default {
         "Neon": "Neon",
         "Silicates": "Silicatos",
         "Iron": "Ferro"
-    },
+    }
 };
-
