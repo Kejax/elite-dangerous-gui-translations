@@ -7,6 +7,8 @@ export default {
     "and": "и",
     "yes": "Да",
     "navigation": {
+        "language": "Язык",
+        "theme": "Тема",
         "plotter": "Навигатор",
         "nearest": "Ближайшая известная система",
         "map": "Карта нейтронных звёзд",
@@ -48,6 +50,8 @@ export default {
         "system_name": "Название системы",
         "name": "Имя",
         "reference_coordinates": "Координаты",
+        "reference_system": "Относительная система",
+        "select_reference_system": "Выбрать относительную систему",
         "x_coordinate": "X координат",
         "y_coordinate": "Y координат",
         "z_coordinate": "Z координат",
@@ -98,7 +102,21 @@ export default {
         "jumps": "Прыжков",
         "jumps_description": "Примерное количество прыжков до этой системы.",
         "terraforming_short": "Терра",
-        "terraforming_description": "Является ли планета кандидатом для терраформирования"
+        "terraforming_description": "Является ли планета кандидатом для терраформирования",
+        "government": "Форма правления",
+        "select_government": "Выбрать тип правительства",
+        "allegiance": "Принадлежность",
+        "select_allegiance": "Выбрать принадлежность",
+        "economy": "Экономика",
+        "select_economy": "Выбрать тип экономики",
+        "security": "Безопасность",
+        "select_security": "Выбрать уровень безопасности",
+        "state": "Состояние",
+        "select_state": "Выбрать состояние",
+        "needs_permit": "Требуется разрешение",
+        "population": "Население",
+        "faction_presence": "Присутствие фракций",
+        "select_faction_presence": "Выбрать фракции"
     },
     "results": {
         "copy_to_clipboard": "Скопировать",
@@ -243,5 +261,61 @@ export default {
         "Neon": "Неон",
         "Silicates": "Силикаты",
         "Iron": "Железо"
+    },
+    "government": {
+        "None": "Нет",
+        "Corporate": "Корпоративная",
+        "Democracy": "Демократия",
+        "Patronage": "Попечительство",
+        "Dictatorship": "Диктатура",
+        "Confederacy": "Конфедерация",
+        "Feudal": "Феодальная",
+        "Anarchy": "Анархия",
+        "Cooperative": "Кооперация",
+        "Communism": "Коммунизм",
+        "Theocracy": "Теократия",
+        "Prison Colony": "Тюремная колония"
+    },
+    "allegiance": {
+        "None": "Нет",
+        "Independent": "Независимые",
+        "Federation": "Федерация",
+        "Empire": "Империя",
+        "Alliance": "Альянс"
+    },
+    "state": {
+        "None": "Нет",
+        "Boom": "Бум",
+        "Expansion": "Экспансия",
+        "Retreat": "Отступление",
+        "Outbreak": "Эпидемия",
+        "Famine": "Голод",
+        "Civil War": "Гражданская война",
+        "Civil Unrest": "Гражданские беспорядки",
+        "War": "Война",
+        "Election": "Выборы",
+        "Lockdown": "Изоляция",
+        "Investment": "Инвестирование",
+        "Bust": "Спад"
+    },
+    "security": {
+        "Low": "Низкая",
+        "Anarchy": "Анархия",
+        "Medium": "Средняя",
+        "High": "Высокая",
+        "Lawless": "Беззаконие"
+    },
+    "economy": {
+        "None": "Нет",
+        "Industrial": "Промышленность",
+        "Refinery": "Переработка",
+        "Extraction": "Добыча",
+        "Colony": "Колония",
+        "Military": "Военная",
+        "Agriculture": "Сельское хозяйство",
+        "Terraforming": "Терраформирование",
+        "High Tech": "Высокие технологии",
+        "Tourism": "Туризм",
+        "Service": "Сфера услуг"
     }
 };
