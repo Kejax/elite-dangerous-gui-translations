@@ -327,5 +327,17 @@ export default {
         "High Tech": "High Tech",
         "Tourism": "Tourism",
         "Service": "Service"
+    },
+    "power_state": {
+        "Exploited": "Exploited",
+        "Contested": "Contested",
+        "Control": "Control"
+    },
+    "reserve_type": {
+        "Pristine" : "Pristine",
+        "Major" : "Major",
+        "Common" : "Common",
+        "Low" : "Low",
+        "Depleted" : "Depleted"
     }
 };
