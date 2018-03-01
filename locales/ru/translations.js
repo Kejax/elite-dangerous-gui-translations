@@ -28,6 +28,12 @@ export default {
         "blank": "Оставьте это поле пустым для того чтобы создать кольцевой маршрут начинающийся и заканчивающийся в вашей стартовой системе.",
         "warning": "Перед тем как отправляться в путешествие, пожалуйста удовтоверьтесь что у вас на корабле установлен Подробный Сканер Поверхности. Без него ваш доход будет значительно ниже ожидаемого."
     },
+    "fields_help": {
+        "system_name": "Фильтр имени системы, например Col выберет Col 285 Sector IY-W b16-6, но не выберет Colonia",
+	"body_name": "Фильтр имени тела в системе, например Sol выберет Sol, но не Solati 6",
+	"reference_system": "Система, относительно которой производится поиск",
+	"reference_coords": "Координаты системы, относительно которых производится поиск"
+    },
     "fields": {
         "source_system": "Стартовая система",
         "destination_system": "Система назначения",
@@ -116,7 +122,14 @@ export default {
         "needs_permit": "Требуется разрешение",
         "population": "Население",
         "faction_presence": "Присутствие фракций",
-        "select_faction_presence": "Выбрать фракции"
+        "select_faction_presence": "Выбрать фракции",
+        "controlling_minor_faction": "Контролирующая фракция",
+        "select_controlling_minor_faction": "Выбрать контролирующую фракцию",
+        "power": "Держава",
+        "select_power": "Выбрать державу",
+        "power_state": "Состояние державы",
+        "reserve_type": "Кол-во ресурсов",
+        "select_reserve_type": "Выбрать тип кол-ва ресурсов"
     },
     "results": {
         "copy_to_clipboard": "Скопировать",
@@ -165,7 +178,7 @@ export default {
         "Gas giant with water-based life": "Газовый гигант с жизнью, основанной на воде",
         "Gas giant with ammonia-based life": "Газовый гигант с жизнью, основанной на аммиаке",
         "Black hole": "Чёрная дыра",
-        "Earth-like world": "Землеподобный планета",
+        "Earth-like world": "Землеподобная планета",
         "Class IV gas giant": "Газовый гигант класса IV",
         "Ammonia world": "Аммиачный мир",
         "Class V gas giant": "Газовый гигант класса V",
@@ -317,5 +330,17 @@ export default {
         "High Tech": "Высокие технологии",
         "Tourism": "Туризм",
         "Service": "Сфера услуг"
+    },
+    "power_state": {
+        "Exploited": "Эксплуатируется",
+        "Contested": "Под угрозой",
+        "Control": "Контролируется"
+    },
+    "reserve_type": {
+        "Pristine": "Обилие ресурсов",
+        "Major": "Много ресурсов",
+        "Common": "Среднее кол-во ресурсов",
+        "Low": "Мало ресурсов",
+        "Depleted": "Ресурсы исчерпаны"
     }
 };
