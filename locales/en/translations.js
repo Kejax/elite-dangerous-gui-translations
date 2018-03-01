@@ -113,8 +113,8 @@ export default {
         "select_government": "Select government",
         "allegiance": "Allegiance",
         "select_allegiance": "Select allegiance",
-        "economy": "Economy",
-        "select_economy": "Select economy",
+        "primary_economy": "Economy",
+        "select_primary_economy": "Select economy",
         "security": "Security",
         "select_security": "Select security",
         "state": "State",
@@ -122,7 +122,12 @@ export default {
         "needs_permit": "Needs Permit",
         "population": "Population",
         "faction_presence": "Faction Presence",
-        "select_faction_presence": "Select faction presence"
+        "select_faction_presence": "Select faction presence",
+        "controlling_minor_faction": "Controlling Faction",
+        "select_controlling_minor_faction": "Select controlling faction",
+        "power": "Power",
+        "power_state": "Power State",
+        "reserve_type": "Reserve Type"
     },
     "results": {
         "copy_to_clipboard": "Copy to clipboard",
@@ -310,7 +315,7 @@ export default {
         "High": "High",
         "Lawless": "Lawless"
     },
-    "economy": {
+    "primary_economy": {
         "None": "None",
         "Industrial": "Industrial",
         "Refinery": "Refinery",
