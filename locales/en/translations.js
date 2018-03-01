@@ -126,8 +126,12 @@ export default {
         "controlling_minor_faction": "Controlling Faction",
         "select_controlling_minor_faction": "Select controlling faction",
         "power": "Power",
+        "select_power": "Select power",
         "power_state": "Power State",
-        "reserve_type": "Reserve Type"
+        "select_power_state": "Select power state",
+        "reserve_type": "Reserve Type",
+        "select_reserve_type": "Select reserve type"
+
     },
     "results": {
         "copy_to_clipboard": "Copy to clipboard",
