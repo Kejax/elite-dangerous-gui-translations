@@ -305,7 +305,7 @@ export default {
         "High": "Высокая",
         "Lawless": "Беззаконие"
     },
-    "economy": {
+    "primary_economy": {
         "None": "Нет",
         "Industrial": "Промышленность",
         "Refinery": "Переработка",
