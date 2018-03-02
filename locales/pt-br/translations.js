@@ -28,12 +28,12 @@ export default {
         "blank": "Deixe em branco para criar uma viagem de ida e volta iniciando no sistema de origem e voltando para o mesmo lugar no final.",
         "warning": "Por favor, certifique-se de que possui um Scanner Detalhado de Superfície antes de embarcar em uma viagem. Caso contrário, suas recompensas serão substancialmente menores do que o esperado."
     },
-	"fields_help": {
-		"system_name": "Use este campo para filtrar corpos no sistema com palavras em comum. Ex.: Col resulta em Col 285 Sector IY-W b16-6, mas não Colonia."
-		"body_name": "Use este campo para filtrar por corpos com palavras em comum. Ex.: Sol resultaria em Sol, mas não Solati 6."
-		"reference_system": "Use este campo para indicar a partir de qual sistema você deseja executar a busca."
-		"reference_coords": "Use este campo ao invés de Sistema de Referência para indicar a partir de quais coordenadas você deseja executar a busca."
-	},
+    "fields_help": {
+        "system_name": "Use este campo para filtrar corpos no sistema com palavras em comum. Ex.: Col resulta em Col 285 Sector IY-W b16-6, mas não Colonia."
+        "body_name": "Use este campo para filtrar por corpos com palavras em comum. Ex.: Sol resultaria em Sol, mas não Solati 6."
+        "reference_system": "Use este campo para indicar a partir de qual sistema você deseja executar a busca."
+        "reference_coords": "Use este campo ao invés de Sistema de Referência para indicar a partir de quais coordenadas você deseja executar a busca."
+    },
     "fields": {
         "source_system": "Sistema de Origem",
         "destination_system": "Sistema de Destino",
@@ -56,8 +56,8 @@ export default {
         "system_name": "Nome do Sistema",
         "name": "Nome",
         "reference_coordinates": "Coordenadas de Referência",
-		"reference_system": "Sistema de Referência"
-		"select_reference_system": "Selecione o Sistema de Referência",
+        "reference_system": "Sistema de Referência"
+        "select_reference_system": "Selecione o Sistema de Referência",
         "x_coordinate": "Coordenada X",
         "y_coordinate": "Coordenada Y",
         "z_coordinate": "Coordenada Z",
@@ -109,9 +109,9 @@ export default {
         "jumps_description": "Número estimado de saltos para esse sistema.",
         "terraforming_short": "Terra",
         "terraforming_description": "Esse corpo é candidato à terraformação?"
-		"government": "Governo",
-		"select_government": "Selecione o Governo",
-		"allegiance": "Fidelidade",
+        "government": "Governo",
+        "select_government": "Selecione o Governo",
+        "allegiance": "Fidelidade",
         "select_allegiance": "Selecione a Fidelidade",
         "primary_economy": "Economia",
         "select_primary_economy": "Selecione a Economia",
@@ -275,20 +275,20 @@ export default {
         "Silicates": "Silicatos",
         "Iron": "Ferro"
     },
-	"government": {
-		"None": "Nenhum"
-		"Corporate": "Corporação"
-		"Democracy": "Democracia"
-		"Patronage": "Patrocínio"
-		"Dictatorship": "Ditadura"
-		"Confederacy": "Confederação"
-		"Feudal": "Feudal"
-		"Anarchy": "Anarquia"
-		"Cooperative": "Cooperativa"
-		"Communism": "Comunismo"
-		"Theocracy": "Teocracia"
-		"Prison Colony": "Colônia Prisional"
-	},
+    "government": {
+        "None": "Nenhum"
+        "Corporate": "Corporação"
+        "Democracy": "Democracia"
+        "Patronage": "Patrocínio"
+        "Dictatorship": "Ditadura"
+        "Confederacy": "Confederação"
+        "Feudal": "Feudal"
+        "Anarchy": "Anarquia"
+        "Cooperative": "Cooperativa"
+        "Communism": "Comunismo"
+        "Theocracy": "Teocracia"
+        "Prison Colony": "Colônia Prisional"
+    },
     "allegiance": {
         "None": "Nenhuma",
         "Independent": "Independente",
