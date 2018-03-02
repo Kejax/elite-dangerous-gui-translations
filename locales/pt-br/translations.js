@@ -129,7 +129,7 @@ export default {
         "select_power": "Selecione o Poder",
         "power_state": "Estado do Poder",
         "select_power_state": "Select o Estado do Power",
-        "reserve_type": "Tipo de Reserva,
+        "reserve_type": "Tipo de Reserva",
         "select_reserve_type": "Selecione o Tipo de Reserva"
     },
     "results": {
