@@ -25,7 +25,7 @@ export default {
     },
     "riches": {
         "title": "Elite Dangerous Road 2 Riches",
-        "blank": "Leave this blank in order to create a circular tour starting at your Source System and returning there at the end.",
+        "blank": "Leave destination blank in order to create a circular tour starting at your source system and returning there at the end.",
         "warning": "Please make sure you have a Detailed Surface Scanner equipped before embarking on a trip.  Your rewards will be substantially lower than you expect if you do not."
     },
     "fields_help": {
@@ -41,8 +41,9 @@ export default {
         "add_via": "Add Via",
         "delete_via": "Delete Via",
         "range": "Range (LY)",
+        "range_description": "The range of your ship.",
         "search_radius": "Radius (LY)",
-        "search_radius_description": "This is the distance in LY around which the plotter will look for valuable worlds for you to visit.",
+        "search_radius_description": "This is the distance in LY around which the plotter will look for valuable worlds for you to visit.  A value of 25 LY tends to give a nice balance for A to B routes keeping the number of jumps reasonbly low whilst still giving a nice payout.  For circular routes (leaving destination blank) you will probably want to increase this to 100-500 LY.",
         "maximum_bodies": "Maximum Bodies",
         "maximum_bodies_description": "This is maximum number of valuable worlds that the plotter will route you through, lower this for a shorter trip.",
         "maximum_distance": "Maximum distance to arrival (LS)",
