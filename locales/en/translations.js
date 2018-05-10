@@ -26,7 +26,7 @@ export default {
     "riches": {
         "title": "Elite Dangerous Road 2 Riches",
         "blank": "Leave destination blank in order to create a circular tour starting at your source system and returning there at the end.",
-        "warning": "Please make sure you have a Detailed Surface Scanner equipped before embarking on a trip.  Your rewards will be substantially lower than you expect if you do not."
+        "warning": "Please make sure you have a Detailed Surface Scanner equipped before embarking on a trip.  An Advanced Surface Scanner will also make locating the bodies to scan within the system substantially easier (and increase your payout too)."
     },
     "fields_help": {
         "system_name": "Use this to filter for bodies in a system with a word matching ie Col would match Col 285 Sector IY-W b16-6 but not Colonia.",
