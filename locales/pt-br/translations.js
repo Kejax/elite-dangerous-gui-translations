@@ -43,8 +43,8 @@ export default {
         "range": "Alcance (AL)",
         "search_radius": "Raio (AL)",
         "search_radius_description": "Essa é a distância em AL que o calculador irá usar para procurar mundos valiosos para visita no raio.",
-        "maximum_bodies": "Máximo de Corpos",
-        "maximum_bodies_description": "Esse é o número máximo de mundos valiosos que o calculador irá te guiar, diminua esse número para uma viagem mais curta.",
+        "maximum_systems": "Máximo de Corpos",
+        "maximum_systems_description": "Esse é o número máximo de mundos valiosos que o calculador irá te guiar, diminua esse número para uma viagem mais curta.",
         "maximum_distance": "Distância máxima até a chegada (SL)",
         "minimum_scan_value": "Valor mínimo para escanear",
         "efficiency": "Eficiência (%)",
@@ -135,6 +135,7 @@ export default {
     "results": {
         "copy_to_clipboard": "Copiar para a área de transferência",
         "bodies_count": "{{count}} corpos",
+        "systems_count": "{{count}} sistemas",
         "fields_to_show": "Campos para exibir",
         "materials_to_show": "Materiais para exibir",
         "atmosphere_composition_to_show": "Composição da atmosfera para exibir",

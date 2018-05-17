@@ -44,8 +44,8 @@ export default {
         "range_description": "The range of your ship.",
         "search_radius": "Radius (LY)",
         "search_radius_description": "This is the distance in LY around which the plotter will look for valuable worlds for you to visit.  A value of 25 LY tends to give a nice balance for A to B routes keeping the number of jumps reasonbly low whilst still giving a nice payout.  For circular routes (leaving destination blank) you will probably want to increase this to 100-500 LY.",
-        "maximum_bodies": "Maximum Bodies",
-        "maximum_bodies_description": "This is maximum number of valuable worlds that the plotter will route you through, lower this for a shorter trip.",
+        "maximum_systems": "Maximum Systems",
+        "maximum_systems_description": "This is maximum number of systems that the plotter will route you through, lower this for a shorter trip.",
         "maximum_distance": "Maximum distance to arrival (LS)",
         "minimum_scan_value": "Minimum scan value",
         "efficiency": "Efficiency (%)",
@@ -137,6 +137,7 @@ export default {
     "results": {
         "copy_to_clipboard": "Copy to clipboard",
         "bodies_count": "{{count}} bodies",
+        "systems_count": "{{count}} systems",
         "fields_to_show": "Fields to show",
         "materials_to_show": "Materials to show",
         "atmosphere_composition_to_show": "Atmosphere composition to show",
