@@ -343,7 +343,7 @@ export default {
         "Minor Silicate Vapour Geysers": "",
         "Minor Water Geysers": "",
         "Minor Water Magma": "",
-        "Nitrogen magma": "Magma de nitrogênio"
+        "Nitrogen magma": "Magma de nitrogênio",
         "No volcanism": "Sem vulcanismo",
         "Rocky Magma": "",
         "Silicate vapour geysers": "Gêiseres de vapor de silicato",

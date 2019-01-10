@@ -263,7 +263,7 @@ export default {
         "Hot thin Metallic vapour": "",
         "Hot thin Silicate vapour": "",
         "Hot thin Sulphur dioxide": "",
-        "Metallic vapour": "Металлические пары"
+        "Metallic vapour": "Металлические пары",
         "Methane": "Метан",
         "Methane-rich": "Богатая метаном",
         "Neon": "Неон",
@@ -342,7 +342,7 @@ export default {
         "Minor Silicate Vapour Geysers": "",
         "Minor Water Geysers": "",
         "Minor Water Magma": "",
-        "Nitrogen magma": "Азотная магма"
+        "Nitrogen magma": "Азотная магма",
         "No volcanism": "Без вулканизма",
         "Rocky Magma": "",
         "Silicate vapour geysers": "Гейзеры с силикатными парами",
