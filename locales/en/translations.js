@@ -413,7 +413,7 @@ export default {
         "Federation": "Federation",
         "Empire": "Empire",
         "Alliance": "Alliance",
-    	"Pilots Federation": "Pilots Federation"
+        "Pilots Federation": "Pilots Federation"
     },
     "state": {
         "None": "None",
