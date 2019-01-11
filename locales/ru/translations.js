@@ -226,7 +226,7 @@ export default {
         "Wolf-Rayet Star": "Звезда Вольфа-Райе (W)",
         "White Dwarf (DQ) Star": "Белый карлик (DQ)",
         "Helium gas giant": "Гелиевый гигант",
-        "Supermassive black hole": "Сверхмассивная чёрная дыра"
+        "Supermassive Black Hole": "Сверхмассивная чёрная дыра"
     },
     "atmosphere": {
         "Ammonia": "Аммиак",

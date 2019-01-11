@@ -225,7 +225,7 @@ export default {
         "Wolf-Rayet Star": "",
         "White Dwarf (DQ) Star": "",
         "Helium gas giant": "",
-        "Supermassive black hole": "Buraco negro supermassivo"
+        "Supermassive Black Hole": "Buraco Negro Supermassivo"
     },
     "atmosphere": {
         "Ammonia": "Amônia",
