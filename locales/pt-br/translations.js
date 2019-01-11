@@ -262,7 +262,7 @@ export default {
         "Hot thin Metallic vapour": "",
         "Hot thin Silicate vapour": "",
         "Hot thin Sulphur dioxide": "",
-        "Metallic vapour": "Vapor metálico"
+        "Metallic vapour": "Vapor metálico",
         "Methane": "Metano",
         "Methane-rich": "Rico em metano",
         "Water": "Água",
@@ -343,7 +343,7 @@ export default {
         "Minor Silicate Vapour Geysers": "",
         "Minor Water Geysers": "",
         "Minor Water Magma": "",
-        "Nitrogen magma": "Magma de nitrogênio"
+        "Nitrogen magma": "Magma de nitrogênio",
         "No volcanism": "Sem vulcanismo",
         "Rocky Magma": "",
         "Silicate vapour geysers": "Gêiseres de vapor de silicato",

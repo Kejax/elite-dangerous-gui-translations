@@ -263,7 +263,7 @@ export default {
         "Hot thin Metallic vapour": "Горячая разреженная металлическая",
         "Hot thin Silicate vapour": "Горячая разреженная силикатная",
         "Hot thin Sulphur dioxide": "Горячая разреженная сернистая",
-        "Metallic vapour": "Металлические пары"
+        "Metallic vapour": "Металлические пары",
         "Methane": "Метан",
         "Methane-rich": "Богатая метаном",
         "Neon": "Неон",
@@ -342,7 +342,7 @@ export default {
         "Minor Silicate Vapour Geysers": "Мало, силикатные гейзеры",
         "Minor Water Geysers": "Мало, водяные гейзеры",
         "Minor Water Magma": "Редкая Водная магма",
-        "Nitrogen magma": "Азотная магма"
+        "Nitrogen magma": "Азотная магма",
         "No volcanism": "Без вулканизма",
         "Rocky Magma": "Магма",
         "Silicate vapour geysers": "Гейзеры с силикатными парами",
