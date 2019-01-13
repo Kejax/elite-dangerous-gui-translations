@@ -229,7 +229,7 @@ export default {
     },
     "atmosphere": {
         "Ammonia": "Amônia",
-        "Ammonia and oxygen": "Amônia e oxigênio",
+        "Ammonia and Oxygen": "Amônia e oxigênio",
         "Ammonia-rich": "Rica em amonia",
         "Argon": "Argônio",
         "Argon-rich": "Rica em argônio",
@@ -272,7 +272,7 @@ export default {
         "No atmosphere": "Sem atmosfera",
         "Oxygen": "Oxigênio",
         "Silicate vapour": "Vapor de silicato",
-        "Suitable for water based life": "Apropriado para vida baseada em água",
+        "Suitable for water-based life": "Apropriado para vida baseada em água",
         "Sulphur dioxide": "Dióxido de enxofre",
         "Thick Ammonia": "Amônia espessa",
         "Thick Ammonia and Oxygen": "Amônia e oxigênio espesso",
@@ -324,8 +324,8 @@ export default {
         "Any": "Qualquer"
     },
     "volcanism_type": {
-        "Ammonia magma": "Magma de amônia",
-        "Carbon dioxide geysers": "Gêiseres de dióxido de carbono",
+        "Ammonia Magma": "Magma de amônia",
+        "Carbon Dioxide Geysers": "Gêiseres de dióxido de carbono",
         "Major Carbon Dioxide Geysers": "Gêiseres de dióxido de carbono abundantes",
         "Major Metallic Magma": "Magma metálico abundante",
         "Major Rocky Magma": "Magma rochoso abundante",
@@ -333,7 +333,7 @@ export default {
         "Major Water Geysers": "Gêiseres de água abundantes",
         "Major Water Magma": "Magma de água abundante",
         "Metallic Magma": "Magma metálico",
-        "Methane magma": "Magma de metano",
+        "Methane Magma": "Magma de metano",
         "Minor Ammonia Magma": "Pouco magma de amônia",
         "Minor Carbon Dioxide Geysers": "Poucos gêiseres de dióxido de carbono",
         "Minor Metallic Magma": "Pouco magma metálico",
@@ -343,12 +343,12 @@ export default {
         "Minor Silicate Vapour Geysers": "Poucos gêiseres de vapor de silicato",
         "Minor Water Geysers": "Poucos gêiseres de água",
         "Minor Water Magma": "Pouco magma de água",
-        "Nitrogen magma": "Magma de nitrogênio",
+        "Nitrogen Magma": "Magma de nitrogênio",
         "No volcanism": "Sem vulcanismo",
         "Rocky Magma": "Magma rochoso",
-        "Silicate vapour geysers": "Gêiseres de vapor de silicato",
-        "Water geysers": "Gêiseres de água",
-        "Water magma": "Magma de água"
+        "Silicate Vapour Geysers": "Gêiseres de vapor de silicato",
+        "Water Geysers": "Gêiseres de água",
+        "Water Magma": "Magma de água"
     },
     "material": {
         "Iron": "Ferro",
@@ -455,7 +455,7 @@ export default {
         "Contested": "Contestado",
         "Control": "Controle"
     },
-    "reserve": {
+    "reserve_level": {
         "Pristine" : "Primitiva",
         "Major" : "Maior",
         "Common" : "Comum",

@@ -230,7 +230,7 @@ export default {
     },
     "atmosphere": {
         "Ammonia": "Аммиак",
-        "Ammonia and oxygen": "Аммиачно-кислородная",
+        "Ammonia and Oxygen": "Аммиачно-кислородная",
         "Ammonia-rich": "Богатая аммиаком",
         "Argon": "Аргон",
         "Argon-rich": "Богатая аргоном",
@@ -272,7 +272,7 @@ export default {
         "No atmosphere": "Без атмосферы",
         "Oxygen": "Кислород",
         "Silicate vapour": "Силикатная",
-        "Suitable for water based life": "Пригодная для органической жизни",
+        "Suitable for water-based life": "Пригодная для органической жизни",
         "Sulphur dioxide": "Оксид серы",
         "Thick Ammonia": "Плотная аммиачная",
         "Thick Ammonia and Oxygen": "Плотная кислородно-аммиачная",
@@ -323,8 +323,8 @@ export default {
         "Any": "Любое"
     },
     "volcanism_type": {
-        "Ammonia magma": "Аммиачная магма",
-        "Carbon dioxide geysers": "Углекислотные гейзеры",
+        "Ammonia Magma": "Аммиачная магма",
+        "Carbon Dioxide Geysers": "Углекислотные гейзеры",
         "Major Carbon Dioxide Geysers": "Много, углекислотные гейзеры",
         "Major Metallic Magma": "Много, металлическая магма",
         "Major Rocky Magma": "Много, магма",
@@ -332,7 +332,7 @@ export default {
         "Major Water Geysers": "Много, водные гейзеры",
         "Major Water Magma": "Много, водная магма",
         "Metallic Magma": "Металлическая магма",
-        "Methane magma": "Метановая магма",
+        "Methane Magma": "Метановая магма",
         "Minor Ammonia Magma": "Мало, аммиачная магма",
         "Minor Carbon Dioxide Geysers": "Мало, углекислотные гейзеры",
         "Minor Metallic Magma": "Мало, металлическая магма",
@@ -342,12 +342,12 @@ export default {
         "Minor Silicate Vapour Geysers": "Мало, силикатные гейзеры",
         "Minor Water Geysers": "Мало, водяные гейзеры",
         "Minor Water Magma": "Редкая Водная магма",
-        "Nitrogen magma": "Азотная магма",
+        "Nitrogen Magma": "Азотная магма",
         "No volcanism": "Без вулканизма",
         "Rocky Magma": "Магма",
-        "Silicate vapour geysers": "Гейзеры с силикатными парами",
-        "Water geysers": "Водяные гейзеры",
-        "Water magma": "Водяная магма"
+        "Silicate Vapour Geysers": "Гейзеры с силикатными парами",
+        "Water Geysers": "Водяные гейзеры",
+        "Water Magma": "Водяная магма"
     },
     "material": {
         "Iron": "Железо",
