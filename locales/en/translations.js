@@ -1,32 +1,35 @@
 export default {
-    "thanks": "Thanks to the following sites for providing the data which powers this website",
-    "copyright": "Copyright 2018 Gareth Harper",
-    "forum_features": "If you have feature requests or find bugs you can visit the forum thread for this tool",
-    "email_features": "or you can email",
-    "here": "here",
-    "and": "and",
+    "thanks": 'Thanks to <a href="https://edsm.net">Elite: Dangerous Star Map</a> and <a href="https://eddb.io">Elite: Dangerous Database</a> for providing the data which powers this website.',
+    "copyright": "Copyright 2018-2019 Gareth Harper",
+    "features": 'If you have feature requests or find bugs you can visit the <a href="https://forums.frontier.co.uk/showthread.php/308674-Neutron-Highway-long-range-route-planner/">forum thread</a> for this tool or you can email <a href="mailto:plotter@spansh.co.uk">plotter@spansh.co.uk</a>.',
     "yes": "Yes",
     "navigation": {
         "language": "Language",
         "theme": "Theme",
         "plotter": "Plotter",
-        "nearest": "Nearest known system",
-        "map": "Neutron star map",
+        "nearest": "Nearest System",
+        "map": "Map",
         "systems": "Systems",
         "bodies": "Bodies",
         "stations": "Stations",
         "riches": "Road2Riches",
-        "oldsite": "Old site"
+        "oldsite": "Old site",
+        "settings": "Settings"
     },
     "plotter": {
-        "title": "Elite Dangerous Neutron Router",
+        "title": "Neutron Router",
         "description": "This page will allow you to plot between two different star systems.  The result will show you every time you need to go to the galaxy map in order to plot a new route (for instance when you are at a neutron star).  It will prioritise neutron stars so should be avoided for journeys which are lower than 500 light years (It will likely try to route you to Jackson's Lighthouse first if you're in the bubble).",
         "warning": "If you have a low maximum range (10-20 LY) you may end up using a boosted jump into a system which you do not have enough range to jump out of.  You should be careful when plotting using this and check that you can get out of the system when you are on the galaxy map."
     },
+    "map": {
+        "title": "Neutron Star Map",
+        "description": "A map of all known neutron stars in the galaxy."
+    },
     "riches": {
-        "title": "Elite Dangerous Road 2 Riches",
+        "title": "Road 2 Riches",
         "blank": "Leave destination blank in order to create a circular tour starting at your source system and returning there at the end.",
-        "warning": "Please make sure you have a Detailed Surface Scanner equipped before embarking on a trip.  An Advanced Discovery Scanner will also make locating the bodies to scan within the system substantially easier (and increase your payout too)."
+        "warning": 'You should decide if you want to DSS (Detailed Surface Scanner which requires you to travel to the body in system and surface map) or simply FSS (Full Spectrum Scanner from the system jump in point).  FSS is faster for each system but will pay substantially less credits.  The checkbox for "Use Mapping Value" will rank bodies by DSS reward rather then FSS reward.',
+        "guides": 'You can find some guides and videos for using the FSS and DSS <a href="https://forums.frontier.co.uk/showthread.php/464149-The-FSS-A-pictoral-guide">here</a> and <a href="https://forums.frontier.co.uk/showthread.php/465649-Setup-and-Use-of-the-FSS-and-DSS-With-Demonstration-Videos">here</a>.'
     },
     "fields_help": {
         "system_name": "Use this to filter for bodies in a system with a word matching ie Col would match Col 285 Sector IY-W b16-6 but not Colonia.",
@@ -90,7 +93,11 @@ export default {
         "distance_to_arrival_short": "Distance (LS)",
         "gravity": "Gravity",
         "estimated_scan_value": "Estimated Scan Value",
-        "estimated_scan_value_short": "Value",
+        "estimated_scan_value_short": "Scan Value",
+        "use_mapping_value": "Use Mapping Value",
+        "use_mapping_value_description": "Use the mapping value rather than the scan value",
+        "estimated_mapping_value": "Estimated Mapping Value",
+        "estimated_mapping_value_short": "Mapping Value",
         "materials": "Materials",
         "material": "Material",
         "add_material_filter": "Add material filter",

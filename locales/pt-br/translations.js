@@ -24,7 +24,7 @@ export default {
         "warning": "Se a sua capacidade máxima de salto for baixa (10-20 AL) você pode acabar usando a supercarga da estrela para pular para um sistema que você não conseguirá sair. Você deve ser cuidadoso ao usar essa ferramenta e verificar se é possível sair do sistema quando estiver no mapa da galáxia."
     },
     "riches": {
-        "title": "Elite Dangerous Caminho para as Riquezas",
+        "title": "Caminho para as Riquezas",
         "blank": "Deixe em branco para criar uma viagem de ida e volta iniciando no sistema de origem e voltando para o mesmo lugar no final.",
         "warning": "Por favor, certifique-se de que possui um Scanner Detalhado de Superfície antes de embarcar em uma viagem. Um Scanner Avançado de Descoberta também facilita a localizar os corpos astronômicos para escanear dentro do sistema."
     },
