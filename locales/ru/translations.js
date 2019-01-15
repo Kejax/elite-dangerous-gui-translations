@@ -1,5 +1,5 @@
 export default {
-    "thanks": "Автор выражает благодарность сайтам <a href="https://edsm.net">Elite: Dangerous Star Map</a> и <a href="https://eddb.io">Elite: Dangerous Database</a>, предоставившим данные для этого сайта",
+    "thanks": "Автор выражает благодарность <a href="https://edsm.net">Elite: Dangerous Star Map</a> и <a href="https://eddb.io">Elite: Dangerous Database</a>, предоставившим данные для этого сайта",
     "copyright": "Авторские права 2018 Gareth Harper",
     "features": "Предложения и сообщения об ошибках принимаются на <a href="https://forums.frontier.co.uk/showthread.php/308674-Neutron-Highway-long-range-route-planner/">форуме</a> либо по почте: <a href="mailto:plotter@spansh.co.uk">plotter@spansh.co.uk</a>.",
     "yes": "Да",
@@ -17,7 +17,7 @@ export default {
         "settings": "Настройки"
     },
     "map": {
-        "title": "Нейтронный навигатор",
+        "title": "Карта нейтронных звёзд",
         "description": "Карта всех известных нейтронных звезд"
     },
     "plotter": {
@@ -28,8 +28,8 @@ export default {
     "riches": {
         "title": "Дорога-к-Богатствам",
         "blank": "Оставьте систему назначения пустой для того, чтобы создать кольцевой маршрут, начинающийся и заканчивающийся в вашей стартовой системе.",
-        "warning": 'Нужно решить, хотите ли вы заниматься картографированием планет. Флажок "Use Mapping Value" сортирует планеты по награде за картографирование',
-        "guides": "Инструкции по использованию сканеров можно найти <a href="https://forums.frontier.co.uk/showthread.php/464149-The-FSS-A-pictoral-guide">here</a> and <a href="https://forums.frontier.co.uk/showthread.php/465649-Setup-and-Use-of-the-FSS-and-DSS-With-Demonstration-Videos">здесь</a>."
+        "warning": 'Решите, хотите ли вы заниматься картографированием планет. Флажок "Use Mapping Value" сортирует планеты по награде за картографирование',
+        "guides": "Инструкции по использованию сканеров можно найти <a href="https://forums.frontier.co.uk/showthread.php/464149-The-FSS-A-pictoral-guide">здесь</a> и <a href="https://forums.frontier.co.uk/showthread.php/465649-Setup-and-Use-of-the-FSS-and-DSS-With-Demonstration-Videos">здесь</a>."
     },
     "fields_help": {
         "system_name": "Фильтр имени системы, например Col выберет Col 285 Sector IY-W b16-6, но не выберет Colonia",
