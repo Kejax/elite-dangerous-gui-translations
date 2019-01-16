@@ -23,13 +23,13 @@ export default {
     "plotter": {
         "title": "Calculador de rotas de estrelas de nêutron",
         "description": "Essa página permite que você calcule a rota entre dois sistemas estelares diferentes. O resultado irá mostrar toda vez em que o mapa da galáxia deve ser aberto para calcular uma nova rota (por exemplo, quando estiver em uma estrela de nêutron). Estrelas de nêutron serão priorizadas, dessa forma essa ferramenta deve ser evitada caso a jornada tenha menos de 500 anos-luz (Você bem provavelmente será redirecionado para Jackson's Lighthouse primeiro se estiver na bolha da civilização).",
-        "warning": "",
-        "guides": ""
+        "warning": ""
     },
     "riches": {
         "title": "Caminho para as Riquezas",
         "blank": "Deixe em branco para criar uma viagem de ida e volta iniciando no sistema de origem e voltando para o mesmo lugar no final.",
-        "warning": "Por favor, certifique-se de que possui um Scanner Detalhado de Superfície antes de embarcar em uma viagem. Um Scanner Avançado de Descoberta também facilita a localizar os corpos astronômicos para escanear dentro do sistema."
+        "warning": "Por favor, certifique-se de que possui um Scanner Detalhado de Superfície antes de embarcar em uma viagem. Um Scanner Avançado de Descoberta também facilita a localizar os corpos astronômicos para escanear dentro do sistema.",
+        "guides": ""
     },
     "fields_help": {
         "system_name": "Use este campo para filtrar corpos no sistema com palavras em comum. Ex.: Col resulta em Col 285 Sector IY-W b16-6, mas não Colonia.",
@@ -44,6 +44,7 @@ export default {
         "add_via": "Adicionar Parada",
         "delete_via": "Apagar Parada",
         "range": "Alcance (AL)",
+        "range_description": "",
         "search_radius": "Raio (AL)",
         "search_radius_description": "Essa é a distância em AL que o calculador irá usar para procurar mundos valiosos para visita no raio.",
         "maximum_systems": "Máximo de Sistemas",
@@ -93,6 +94,8 @@ export default {
         "gravity": "Gravidade",
         "estimated_scan_value": "Valor estimado do escaneamento",
         "estimated_scan_value_short": "",
+        "use_mapping_value": "",
+        "use_mapping_value_description": "",
         "estimated_mapping_value": "",
         "estimated_mapping_value_short": "",
         "materials": "Materiais",
@@ -180,10 +183,10 @@ export default {
         "Water world": "Mundo de água",
         "G (White-Yellow) Star": "Estrela tipo B (Branca-amarela)",
         "Class I gas giant": "Gigante gasoso de Classe I",
-        "Neutron star": "Estrela de nêutron",
+        "Neutron Star": "Estrela de nêutron",
         "A (Blue-White) Star": "Estrela tipo A (Azul-branca)",
         "Class III gas giant": "Gigante gasoso de Classe III",
-        "Rocky ice world": "Planeta rochoso gelado",
+        "Rocky Ice world": "Planeta rochoso gelado",
         "L (Brown dwarf) Star": "Estrela tipo L (Anã Marrom)",
         "Metal-rich body": "Corpo rico em metais",
         "Class II gas giant": "Gigante gasoso de Classe II",
@@ -196,7 +199,7 @@ export default {
         "Earth-like world": "Mundo tipo Terra",
         "Ammonia world": "Mundo de amônia",
         "Class IV gas giant": "Gigante gasoso de Classe IV",
-        "Black hole": "Buraco negro",
+        "Black Hole": "Buraco negro",
         "O (Blue-White) Star": "Estrela tipo O (Azul-branca)",
         "White Dwarf (DC) Star": "Estrela tipo DC (Anã Branca)",
         "White Dwarf (DA) Star": "Estrela tipo DA (Anã Branca)",
@@ -410,7 +413,7 @@ export default {
         "Communism": "Comunismo",
         "Theocracy": "Teocracia",
         "Prison": "Prisão",
-        "Prison Colony": "Colônia Prisional"
+        "Prison colony": "Colônia Prisional"
     },
     "allegiance": {
         "None": "Nenhuma",
@@ -456,6 +459,9 @@ export default {
         "Service": "Serviço"
     },
     "power_state": {
+        "Controlled": "",
+        "InPrepareRadius": "",
+        "Prepared": "",
         "Exploited": "Explorado",
         "Contested": "Contestado",
         "Control": "Controle"

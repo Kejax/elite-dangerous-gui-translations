@@ -1,7 +1,7 @@
 export default {
-    "thanks": 'Thanks to <a href="https://edsm.net">Elite: Dangerous Star Map</a> and <a href="https://eddb.io">Elite: Dangerous Database</a> for providing the data which powers this website.',
+    "thanks": "Thanks to <a href=\"https://edsm.net\">Elite: Dangerous Star Map</a> and <a href=\"https://eddb.io\">Elite: Dangerous Database</a> for providing the data which powers this website.",
     "copyright": "Copyright 2018-2019 Gareth Harper",
-    "features": 'If you have feature requests or find bugs you can visit the <a href="https://forums.frontier.co.uk/showthread.php/308674-Neutron-Highway-long-range-route-planner/">forum thread</a> for this tool or you can email <a href="mailto:plotter@spansh.co.uk">plotter@spansh.co.uk</a>.',
+    "features": "If you have feature requests or find bugs you can visit the <a href=\"https://forums.frontier.co.uk/showthread.php/308674-Neutron-Highway-long-range-route-planner/\">forum thread</a> for this tool or you can email <a href=\"mailto:plotter@spansh.co.uk\">plotter@spansh.co.uk</a>.",
     "yes": "Yes",
     "navigation": {
         "language": "Language",
@@ -28,8 +28,8 @@ export default {
     "riches": {
         "title": "Road 2 Riches",
         "blank": "Leave destination blank in order to create a circular tour starting at your source system and returning there at the end.",
-        "warning": 'You should decide if you want to DSS (Detailed Surface Scanner which requires you to travel to the body in system and surface map) or simply FSS (Full Spectrum Scanner from the system jump in point).  FSS is faster for each system but will pay substantially less credits.  The checkbox for "Use Mapping Value" will rank bodies by DSS reward rather then FSS reward.',
-        "guides": 'You can find some guides and videos for using the FSS and DSS <a href="https://forums.frontier.co.uk/showthread.php/464149-The-FSS-A-pictoral-guide">here</a> and <a href="https://forums.frontier.co.uk/showthread.php/465649-Setup-and-Use-of-the-FSS-and-DSS-With-Demonstration-Videos">here</a>.'
+        "warning": "You should decide if you want to DSS (Detailed Surface Scanner which requires you to travel to the body in system and surface map) or simply FSS (Full Spectrum Scanner from the system jump in point).  FSS is faster for each system but will pay substantially less credits.  The checkbox for \"Use Mapping Value\" will rank bodies by DSS reward rather then FSS reward.",
+        "guides": "You can find some guides and videos for using the FSS and DSS <a href=\"https://forums.frontier.co.uk/showthread.php/464149-The-FSS-A-pictoral-guide\">here</a> and <a href=\"https://forums.frontier.co.uk/showthread.php/465649-Setup-and-Use-of-the-FSS-and-DSS-With-Demonstration-Videos\">here</a>."
     },
     "fields_help": {
         "system_name": "Use this to filter for bodies in a system with a word matching ie Col would match Col 285 Sector IY-W b16-6 but not Colonia.",
@@ -458,6 +458,9 @@ export default {
         "Service": "Service"
     },
     "power_state": {
+        "Controlled": "Controlled",
+        "InPrepareRadius": "InPrepareRadius",
+        "Prepared": "Prepared",
         "Exploited": "Exploited",
         "Contested": "Contested",
         "Control": "Control"
