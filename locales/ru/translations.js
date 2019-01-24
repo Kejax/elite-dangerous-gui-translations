@@ -28,7 +28,7 @@ export default {
     "riches": {
         "title": "Дорога-к-Богатствам",
         "blank": "Оставьте систему назначения пустой для того, чтобы создать кольцевой маршрут, начинающийся и заканчивающийся в вашей стартовой системе.",
-        "warning": "Решите, хотите ли вы заниматься картографированием планет. Флажок \"Use Mapping Value\" сортирует планеты по награде за картографирование",
+        "warning": "Решите, хотите ли вы заниматься картографированием планет с использованием зондов. Флажок \"Использовать цену за картографирование\" сортирует планеты по награде за картографирование",
         "guides": "Инструкции по использованию сканеров можно найти <a href=\"https://forums.frontier.co.uk/showthread.php/464149-The-FSS-A-pictoral-guide\">здесь</a> и <a href=\"https://forums.frontier.co.uk/showthread.php/465649-Setup-and-Use-of-the-FSS-and-DSS-With-Demonstration-Videos\">здесь</a>."
     },
     "fields_help": {
@@ -92,12 +92,12 @@ export default {
         "distance_to_arrival": "Точка прибытия (св.секунд)",
         "distance_to_arrival_short": "Прибытие (св.секунд)",
         "gravity": "Гравитация",
-        "estimated_scan_value": "Примерная ценность сканирования",
-        "estimated_scan_value_short": "",
-        "use_mapping_value": "",
-        "use_mapping_value_description": "",
-        "estimated_mapping_value": "",
-        "estimated_mapping_value_short": "",
+        "estimated_scan_value": "Примерная награда за сканирование",
+        "estimated_scan_value_short": "Награда за скан",
+        "use_mapping_value": "Использовать цену за картографирование",
+        "use_mapping_value_description": "Сортировать планеты по цене за полное сканирование поверхности вместо базового скана",
+        "estimated_mapping_value": "Примерная награда за картографирование",
+        "estimated_mapping_value_short": "Награда за карту",
         "materials": "Метериалы",
         "material": "Материал",
         "add_material_filter": "Добавить фильтр материалов",
@@ -138,7 +138,7 @@ export default {
         "power": "Держава",
         "select_power": "Выбрать державу",
         "power_state": "Состояние державы",
-        "select_power_state": "",
+        "select_power_state": "Выбрать состояние державы",
         "reserve_level": "Уровень резервов",
         "select_reserve_level": "Выбрать уровень резервов"
     },
@@ -458,9 +458,9 @@ export default {
         "Service": "Сфера услуг"
     },
     "power_state": {
-        "Controlled": "",
-        "InPrepareRadius": "",
-        "Prepared": "",
+        "Controlled": "Контролируется",
+        "InPrepareRadius": "В радиусе для подготовки",
+        "Prepared": "Готовится",
         "Exploited": "Эксплуатируется",
         "Contested": "Под угрозой",
         "Control": "Контролируется"
