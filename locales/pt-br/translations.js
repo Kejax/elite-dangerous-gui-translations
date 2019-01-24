@@ -273,7 +273,6 @@ export default {
         "Metallic vapour": "Vapor metálico",
         "Methane": "Metano",
         "Methane-rich": "Rico em metano",
-        "Water": "Água",
         "Neon": "Neon",
         "Neon-rich": "Rico em neon",
         "Nitrogen": "Nitrogênio",
