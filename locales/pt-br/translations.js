@@ -1,35 +1,36 @@
 export default {
-    "thanks": "",
+    "thanks": "Agradeço ao <a href=\"https://edsm.net\">Elite: Dangerous Star Map</a> e <a href=\"https://eddb.io\">Elite: Dangerous Database</a> por fornecer as informações que alimentam esse site.",
+    "copyright": "Copyright 2018-2019 Gareth Harper"",
     "copyright": "Copyright 2018 Gareth Harper",
-    "features": "",
+    "features": "Se você tiver solicitações de recursos ou se encontrar bugs, você pode visitar a <a href=\"https://forums.frontier.co.uk/showthread.php/308674-Neutron-Highway-long-range-route-planner/\">página do fórum</a> dessa ferramenta ou mandar um e-mail para <a href=\"mailto:plotter@spansh.co.uk\">plotter@spansh.co.uk</a>.",
     "yes": "Sim",
     "navigation": {
         "language": "Idioma",
         "theme": "Tema",
         "plotter": "Calculador",
-        "nearest": "",
-        "map": "",
+        "nearest": "Sistema mais próximio",
+        "map": "Mapa",
         "systems": "Sistemas",
         "bodies": "Corpos",
         "stations": "Estações",
         "riches": "Caminho para as riquezas",
         "oldsite": "Site antigo",
-        "settings": ""
+        "settings": "Configurações"
     },
     "map": {
-        "title": "",
-        "description": ""
+        "title": "Mapa de Estrelas de Nêutron",
+        "description": "Um mapa com todas as estrelas de nêutron conhecidas na galáxia"
     },
     "plotter": {
         "title": "Calculador de rotas de estrelas de nêutron",
         "description": "Essa página permite que você calcule a rota entre dois sistemas estelares diferentes. O resultado irá mostrar toda vez em que o mapa da galáxia deve ser aberto para calcular uma nova rota (por exemplo, quando estiver em uma estrela de nêutron). Estrelas de nêutron serão priorizadas, dessa forma essa ferramenta deve ser evitada caso a jornada tenha menos de 500 anos-luz (Você bem provavelmente será redirecionado para Jackson's Lighthouse primeiro se estiver na bolha da civilização).",
-        "warning": ""
+        "warning": "Se a sua capacidade máxima ed salto for baixa (entre 10-20aL) você pode acabar indo para um sistema da qual não terá como sair. Seja cuidadoso quando traçar seus saltos e verifique se poderá sair do sistema quando estiver no mapa da galáxia"
     },
     "riches": {
         "title": "Caminho para as Riquezas",
         "blank": "Deixe em branco para criar uma viagem de ida e volta iniciando no sistema de origem e voltando para o mesmo lugar no final.",
         "warning": "Por favor, certifique-se de que possui um Scanner Detalhado de Superfície antes de embarcar em uma viagem. Um Scanner Avançado de Descoberta também facilita a localizar os corpos astronômicos para escanear dentro do sistema.",
-        "guides": ""
+        "guides": "Você pode encontrar alguns guias de como usar os scanners de sistema e de superfície <a href=\"https://forums.frontier.co.uk/showthread.php/464149-The-FSS-A-pictoral-guide\">aqui</a> e <a href=\"https://forums.frontier.co.uk/showthread.php/465649-Setup-and-Use-of-the-FSS-and-DSS-With-Demonstration-Videos\">aqui (em inglês)</a>."
     },
     "fields_help": {
         "system_name": "Use este campo para filtrar corpos no sistema com palavras em comum. Ex.: Col resulta em Col 285 Sector IY-W b16-6, mas não Colonia.",
@@ -44,7 +45,7 @@ export default {
         "add_via": "Adicionar Parada",
         "delete_via": "Apagar Parada",
         "range": "Alcance (AL)",
-        "range_description": "",
+        "range_description": "O alcance da sua nave",
         "search_radius": "Raio (AL)",
         "search_radius_description": "Essa é a distância em AL que o calculador irá usar para procurar mundos valiosos para visita no raio.",
         "maximum_systems": "Máximo de Sistemas",
@@ -93,11 +94,11 @@ export default {
         "distance_to_arrival_short": "Distância (SL)",
         "gravity": "Gravidade",
         "estimated_scan_value": "Valor estimado do escaneamento",
-        "estimated_scan_value_short": "",
-        "use_mapping_value": "",
-        "use_mapping_value_description": "",
-        "estimated_mapping_value": "",
-        "estimated_mapping_value_short": "",
+        "estimated_scan_value_short": "Valor do escaneamento",
+        "use_mapping_value": "Use o valor do mapeamento",
+        "use_mapping_value_description": "Utilize o valor do mapeamento em vez do valor de escaneamento",
+        "estimated_mapping_value": "Valor estimado do mapeamento",
+        "estimated_mapping_value_short": "Valor do mapeamento",
         "materials": "Materiais",
         "material": "Material",
         "add_material_filter": "Adicionar filtro de material",
@@ -458,9 +459,9 @@ export default {
         "Service": "Serviço"
     },
     "power_state": {
-        "Controlled": "",
-        "InPrepareRadius": "",
-        "Prepared": "",
+        "Controlled": "Controlado",
+        "InPrepareRadius": "No raio de preparo",
+        "Prepared": "Preparado",
         "Exploited": "Explorado",
         "Contested": "Contestado",
         "Control": "Controle"
