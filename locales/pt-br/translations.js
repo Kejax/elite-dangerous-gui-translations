@@ -4,8 +4,8 @@ export default {
     "features": "Se você tiver solicitações de recursos ou se encontrar bugs, você pode visitar a <a href=\"https://forums.frontier.co.uk/showthread.php/308674-Neutron-Highway-long-range-route-planner/\">página do fórum</a> dessa ferramenta ou mandar um e-mail para <a href=\"mailto:plotter@spansh.co.uk\">plotter@spansh.co.uk</a>.",
     "yes": "Sim",
     "navigation": {
-        "login": "",
-        "logout": "",
+        "login": "Logar",
+        "logout": "Deslogar",
         "language": "Idioma",
         "theme": "Tema",
         "plotter": "Calculador",
@@ -19,10 +19,10 @@ export default {
         "settings": "Configurações"
     },
     "settings": {
-        "delete_help": "",
-        "delete_user": "",
-        "confirm_delete": "",
-        "confirm_delete_warning": ""
+        "delete_help": "Delete a sua conta de usuário e quaisquer dados associados",
+        "delete_user": "Deletar usuário",
+        "confirm_delete": "Confirma deletar usuário",
+        "confirm_delete_warning": "Cuidado, se você continuar, a sua conta de usuários e dados associados setão deletados, incluindo mas não limitados aos dados de escaneamento do Caminho para as riquezas. Você pode recriar a sua conta de usuário associando a sua conta Frontier novamente, mas os seus dados salvos serào perdidos permanentemente e não poderão ser restaurados. Tem certeza que quer continuar?"
     },
     "map": {
         "title": "Mapa de Estrelas de Nêutron",
