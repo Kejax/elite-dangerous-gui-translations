@@ -4,6 +4,8 @@ export default {
     "features": "Предложения и сообщения об ошибках принимаются на <a href=\"https://forums.frontier.co.uk/showthread.php/308674-Neutron-Highway-long-range-route-planner/\">форуме</a> либо по почте: <a href=\"mailto:plotter@spansh.co.uk\">plotter@spansh.co.uk</a>.",
     "yes": "Да",
     "navigation": {
+        "login": "",
+        "logout": "",
         "language": "Язык",
         "theme": "Тема",
         "plotter": "Навигатор",
@@ -15,6 +17,12 @@ export default {
         "riches": "Дорога-к-Богатству",
         "oldsite": "Старый сайт",
         "settings": "Настройки"
+    },
+    "settings": {
+        "delete_help": "",
+        "delete_user": "",
+        "confirm_delete": "",
+        "confirm_delete_warning": ""
     },
     "map": {
         "title": "Карта нейтронных звёзд",

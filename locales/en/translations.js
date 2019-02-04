@@ -4,6 +4,8 @@ export default {
     "features": "If you have feature requests or find bugs you can visit the <a href=\"https://forums.frontier.co.uk/showthread.php/308674-Neutron-Highway-long-range-route-planner/\">forum thread</a> for this tool or you can email <a href=\"mailto:plotter@spansh.co.uk\">plotter@spansh.co.uk</a>.",
     "yes": "Yes",
     "navigation": {
+        "login": "Login",
+        "logout": "Logout",
         "language": "Language",
         "theme": "Theme",
         "plotter": "Plotter",
@@ -15,6 +17,12 @@ export default {
         "riches": "Road2Riches",
         "oldsite": "Old site",
         "settings": "Settings"
+    },
+    "settings": {
+        "delete_help": "Delete your user account and any associated data.",
+        "delete_user": "Delete User",
+        "confirm_delete": "Confirm Delete User",
+        "confirm_delete_warning": "Warning, if you continue you will delete your user account and any associated saved data, including but not limited to road to riches saved scans.  You can recreate your user account by linking your frontier account again but your saved data will be gone forever and cannot be restored.  Are you sure you want to continue?"
     },
     "plotter": {
         "title": "Neutron Router",

@@ -1,10 +1,11 @@
 export default {
     "thanks": "Agradeço ao <a href=\"https://edsm.net\">Elite: Dangerous Star Map</a> e <a href=\"https://eddb.io\">Elite: Dangerous Database</a> por fornecer as informações que alimentam esse site.",
-    "copyright": "Copyright 2018-2019 Gareth Harper"",
-    "copyright": "Copyright 2018 Gareth Harper",
+    "copyright": "Copyright 2018-2019 Gareth Harper",
     "features": "Se você tiver solicitações de recursos ou se encontrar bugs, você pode visitar a <a href=\"https://forums.frontier.co.uk/showthread.php/308674-Neutron-Highway-long-range-route-planner/\">página do fórum</a> dessa ferramenta ou mandar um e-mail para <a href=\"mailto:plotter@spansh.co.uk\">plotter@spansh.co.uk</a>.",
     "yes": "Sim",
     "navigation": {
+        "login": "",
+        "logout": "",
         "language": "Idioma",
         "theme": "Tema",
         "plotter": "Calculador",
@@ -16,6 +17,12 @@ export default {
         "riches": "Caminho para as riquezas",
         "oldsite": "Site antigo",
         "settings": "Configurações"
+    },
+    "settings": {
+        "delete_help": "",
+        "delete_user": "",
+        "confirm_delete": "",
+        "confirm_delete_warning": ""
     },
     "map": {
         "title": "Mapa de Estrelas de Nêutron",
