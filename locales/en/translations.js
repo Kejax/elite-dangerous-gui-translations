@@ -1,7 +1,10 @@
 export default {
-    "thanks": "Thanks to <a href=\"https://edsm.net\">Elite: Dangerous Star Map</a> and <a href=\"https://eddb.io\">Elite: Dangerous Database</a> for providing the data which powers this website.",
-    "copyright": "Copyright 2018-2019 Gareth Harper",
-    "features": "If you have feature requests or find bugs you can visit the <a href=\"https://forums.frontier.co.uk/showthread.php/308674-Neutron-Highway-long-range-route-planner/\">forum thread</a> for this tool or you can email <a href=\"mailto:plotter@spansh.co.uk\">plotter@spansh.co.uk</a>.",
+    "footer": {
+        "thanks": "Thanks to <a href=\"https://edsm.net\">Elite: Dangerous Star Map</a> and <a href=\"https://eddb.io\">Elite: Dangerous Database</a> for providing the data which powers this website.",
+        "copyright": "Copyright 2018-2019 Gareth Harper",
+        "features": "If you have feature requests or find bugs you can visit the <a href=\"https://forums.frontier.co.uk/showthread.php/308674-Neutron-Highway-long-range-route-planner/\">forum thread</a> for this tool or you can email <a href=\"mailto:plotter@spansh.co.uk\">plotter@spansh.co.uk</a>.",
+        "donations": "If you would like to donate towards keeping this site updated and running you may check out my patreon page <a href=\"\">here</a>"
+    },
     "yes": "Yes",
     "navigation": {
         "login": "Login",
@@ -16,7 +19,28 @@ export default {
         "stations": "Stations",
         "riches": "Road2Riches",
         "oldsite": "Old site",
-        "settings": "Settings"
+        "settings": "Settings",
+        "thanks": "Thanks"
+    },
+    "thanks": {
+        "title": "Thank You",
+        "description": "A lot of the features on this site would not have been possible without the extensive help I've received.  This list isn't exhaustive and I'm grateful to everyone who has helped.  If you feel someone has been left out then please contact me.",
+        "players": {
+            "title": "Players",
+            "description": "I would like to thank all of the players and explorers who run the various data collection tools which allow us to gather data about the galaxy which makes these sites even possible but a few have gone above and beyond."
+        },
+        "developers": {
+            "title": "Developers",
+            "description": "The other developers who have helped."
+        },
+        "translators": {
+            "title": "Translators",
+            "description": "The translators who have made the native language versions of this site."
+        },
+        "patreon": {
+            "title": "Patrons",
+            "description": "The patrons who have contributed towards the costs of hosting and developing."
+        }
     },
     "settings": {
         "delete_help": "Delete your user account and any associated data.",
@@ -254,6 +278,7 @@ export default {
         "Carbon dioxide-rich": "Carbon dioxide-rich",
         "Helium": "Helium",
         "Hot Argon": "Hot Argon",
+        "Hot Argon-rich": "Hot Argon-rich",
         "Hot Carbon dioxide": "Hot Carbon dioxide",
         "Hot Carbon dioxide-rich": "Hot Carbon dioxide-rich",
         "Hot Silicate vapour": "Hot Silicate vapour",
@@ -437,8 +462,9 @@ export default {
         "Retreat": "Retreat",
         "Outbreak": "Outbreak",
         "Famine": "Famine",
-        "Civil War": "Civil War",
-        "Civil Unrest": "Civil Unrest",
+        "Civil war": "Civil war",
+        "Civil liberty": "Civil liberty",
+        "Civil unrest": "Civil unrest",
         "War": "War",
         "Election": "Election",
         "Lockdown": "Lockdown",

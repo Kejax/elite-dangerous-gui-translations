@@ -1,7 +1,10 @@
 export default {
-    "thanks": "Agradeço ao <a href=\"https://edsm.net\">Elite: Dangerous Star Map</a> e <a href=\"https://eddb.io\">Elite: Dangerous Database</a> por fornecer as informações que alimentam esse site.",
-    "copyright": "Copyright 2018-2019 Gareth Harper",
-    "features": "Se você tiver solicitações de recursos ou se encontrar bugs, você pode visitar a <a href=\"https://forums.frontier.co.uk/showthread.php/308674-Neutron-Highway-long-range-route-planner/\">página do fórum</a> dessa ferramenta ou mandar um e-mail para <a href=\"mailto:plotter@spansh.co.uk\">plotter@spansh.co.uk</a>.",
+    "footer": {
+        "thanks": "Agradeço ao <a href=\"https://edsm.net\">Elite: Dangerous Star Map</a> e <a href=\"https://eddb.io\">Elite: Dangerous Database</a> por fornecer as informações que alimentam esse site.",
+        "copyright": "Copyright 2018-2019 Gareth Harper",
+        "features": "Se você tiver solicitações de recursos ou se encontrar bugs, você pode visitar a <a href=\"https://forums.frontier.co.uk/showthread.php/308674-Neutron-Highway-long-range-route-planner/\">página do fórum</a> dessa ferramenta ou mandar um e-mail para <a href=\"mailto:plotter@spansh.co.uk\">plotter@spansh.co.uk</a>.",
+        "donations": ""
+    },
     "yes": "Sim",
     "navigation": {
         "login": "Logar",
@@ -16,7 +19,28 @@ export default {
         "stations": "Estações",
         "riches": "Caminho para as riquezas",
         "oldsite": "Site antigo",
-        "settings": "Configurações"
+        "settings": "Configurações",
+        "thanks": ""
+    },
+    "thanks": {
+        "title": "",
+        "description": "",
+        "players": {
+            "title": "",
+            "description": ""
+        },
+        "developers": {
+            "title": "",
+            "description": ""
+        },
+        "translators": {
+            "title": "",
+            "description": ""
+        },
+        "patreon": {
+            "title": "",
+            "description": ""
+        }
     },
     "settings": {
         "delete_help": "Delete a sua conta de usuário e quaisquer dados associados",
@@ -253,6 +277,7 @@ export default {
         "Carbon dioxide-rich": "Rica em dióxido de carbono",
         "Helium": "Hélio",
         "Hot Argon": "Argônio quente",
+        "Hot Argon-rich": "",
         "Hot Carbon dioxide": "Dióxido de carbono quente",
         "Hot Carbon dioxide-rich": "Rica em dióxido de carbono quente",
         "Hot Silicate vapour": "Vapor quente de silicatos",
@@ -437,8 +462,9 @@ export default {
         "Retreat": "Recuo",
         "Outbreak": "Surto",
         "Famine": "Fome",
-        "Civil War": "Guerra Civil",
-        "Civil Unrest": "Inquietação Civil",
+        "Civil war": "Guerra civil",
+        "Civil liverty": "",
+        "Civil unrest": "Inquietação civil",
         "War": "Guerra",
         "Election": "Eleição",
         "Lockdown": "Quarentena",

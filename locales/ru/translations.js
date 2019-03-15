@@ -1,7 +1,10 @@
 export default {
-    "thanks": "Автор выражает благодарность <a href=\"https://edsm.net\">Elite: Dangerous Star Map</a> и <a href=\"https://eddb.io\">Elite: Dangerous Database</a>, предоставившим данные для этого сайта",
-    "copyright": "Авторские права 2018 Gareth Harper",
-    "features": "Предложения и сообщения об ошибках принимаются на <a href=\"https://forums.frontier.co.uk/showthread.php/308674-Neutron-Highway-long-range-route-planner/\">форуме</a> либо по почте: <a href=\"mailto:plotter@spansh.co.uk\">plotter@spansh.co.uk</a>.",
+    "footer": {
+        "thanks": "Автор выражает благодарность <a href=\"https://edsm.net\">Elite: Dangerous Star Map</a> и <a href=\"https://eddb.io\">Elite: Dangerous Database</a>, предоставившим данные для этого сайта",
+        "copyright": "Авторские права 2018 Gareth Harper",
+        "features": "Предложения и сообщения об ошибках принимаются на <a href=\"https://forums.frontier.co.uk/showthread.php/308674-Neutron-Highway-long-range-route-planner/\">форуме</a> либо по почте: <a href=\"mailto:plotter@spansh.co.uk\">plotter@spansh.co.uk</a>.",
+        "donations": ""
+    },
     "yes": "Да",
     "navigation": {
         "login": "Вход",
@@ -16,7 +19,28 @@ export default {
         "stations": "Станции",
         "riches": "Дорога-к-Богатству",
         "oldsite": "Старый сайт",
-        "settings": "Настройки"
+        "settings": "Настройки",
+        "thanks": ""
+    },
+    "thanks": {
+        "title": "",
+        "description": "",
+        "players": {
+            "title": "",
+            "description": ""
+        },
+        "developers": {
+            "title": "",
+            "description": ""
+        },
+        "translators": {
+            "title": "",
+            "description": ""
+        },
+        "patreon": {
+            "title": "",
+            "description": ""
+        }
     },
     "settings": {
         "delete_help": "Удалить ваш аккаунт и все связанные с ним данные.",
@@ -254,6 +278,7 @@ export default {
         "Carbon dioxide-rich": "Богатая углекислотой",
         "Helium": "Гелий",
         "Hot Argon": "Горячая аргоновая",
+        "Hot Argon-rich": "",
         "Hot Carbon dioxide": "Горячая углекислотная",
         "Hot Carbon dioxide-rich": "Горячая богатая углекислотой",
         "Hot Silicate vapour": "Горячие силикатные пары",
@@ -437,8 +462,9 @@ export default {
         "Retreat": "Отступление",
         "Outbreak": "Эпидемия",
         "Famine": "Голод",
-        "Civil War": "Гражданская война",
-        "Civil Unrest": "Гражданские беспорядки",
+        "Civil war": "Гражданская война",
+        "Civil liberty": "",
+        "Civil unrest": "Гражданские беспорядки",
         "War": "Война",
         "Election": "Выборы",
         "Lockdown": "Изоляция",
