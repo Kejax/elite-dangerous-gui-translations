@@ -1,9 +1,9 @@
 export default {
     "footer": {
         "thanks": "Thanks to <a href=\"https://edsm.net\">Elite: Dangerous Star Map</a> and <a href=\"https://eddb.io\">Elite: Dangerous Database</a> for providing the data which powers this website.",
-        "copyright": "Copyright 2018-2019 Gareth Harper",
+        "copyright": "Copyright 2018-2019 Gareth Harper.",
         "features": "If you have feature requests or find bugs you can visit the <a href=\"https://forums.frontier.co.uk/showthread.php/308674-Neutron-Highway-long-range-route-planner/\">forum thread</a> for this tool or you can email <a href=\"mailto:plotter@spansh.co.uk\">plotter@spansh.co.uk</a>.",
-        "donations": "If you would like to donate towards keeping this site updated and running you may check out my patreon page <a href=\"\">here</a>"
+        "donations": "If you would like to donate towards keeping this site updated and running you may check out my patreon page <a href=\"https://www.patreon.com/spansh\">here</a>."
     },
     "yes": "Yes",
     "navigation": {

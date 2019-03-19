@@ -1,7 +1,7 @@
 export default {
     "footer": {
         "thanks": "Agradeço ao <a href=\"https://edsm.net\">Elite: Dangerous Star Map</a> e <a href=\"https://eddb.io\">Elite: Dangerous Database</a> por fornecer as informações que alimentam esse site.",
-        "copyright": "Copyright 2018-2019 Gareth Harper",
+        "copyright": "Copyright 2018-2019 Gareth Harper.",
         "features": "Se você tiver solicitações de recursos ou se encontrar bugs, você pode visitar a <a href=\"https://forums.frontier.co.uk/showthread.php/308674-Neutron-Highway-long-range-route-planner/\">página do fórum</a> dessa ferramenta ou mandar um e-mail para <a href=\"mailto:plotter@spansh.co.uk\">plotter@spansh.co.uk</a>.",
         "donations": ""
     },
