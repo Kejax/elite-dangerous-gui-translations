@@ -494,11 +494,13 @@ export default {
     },
     "power_state": {
         "Controlled": "Controlled",
-        "InPrepareRadius": "InPrepareRadius",
+        "InPrepareRadius": "In Prepare Radius",
         "Prepared": "Prepared",
         "Exploited": "Exploited",
         "Contested": "Contested",
-        "Control": "Control"
+        "Control": "Control",
+        "HomeSystem": "Home System",
+        "Turmoil": "Turmoil"
     },
     "reserve_level": {
         "Pristine" : "Pristine",

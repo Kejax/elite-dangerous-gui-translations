@@ -465,7 +465,6 @@ export default {
         "Civil war": "Guerra civil",
         "Civil liverty": "",
         "Civil unrest": "Inquietação civil",
-        "Pirate attack": "",
         "War": "Guerra",
         "Election": "Eleição",
         "Lockdown": "Quarentena",
@@ -498,7 +497,9 @@ export default {
         "Prepared": "Preparado",
         "Exploited": "Explorado",
         "Contested": "Contestado",
-        "Control": "Controle"
+        "Control": "Controle",
+        "HomeSystem": "",
+        "Turmoil": ""
     },
     "reserve_level": {
         "Pristine" : "Primitiva",
