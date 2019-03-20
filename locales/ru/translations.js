@@ -3,7 +3,7 @@ export default {
         "thanks": "Автор выражает благодарность <a href=\"https://edsm.net\">Elite: Dangerous Star Map</a> и <a href=\"https://eddb.io\">Elite: Dangerous Database</a>, предоставившим данные для этого сайта.",
         "copyright": "Авторские права 2018 Gareth Harper.",
         "features": "Предложения и сообщения об ошибках принимаются на <a href=\"https://forums.frontier.co.uk/showthread.php/308674-Neutron-Highway-long-range-route-planner/\">форуме</a> либо по почте: <a href=\"mailto:plotter@spansh.co.uk\">plotter@spansh.co.uk</a>.",
-        "donations": ""
+        "donations": "Если вы хотите пожертвовать средства на обновление и работу этого сайта, вы можете сделать это на <a href=\"https://www.patreon.com/spansh\">Patreon</a>."
     },
     "yes": "Да",
     "navigation": {
@@ -20,26 +20,26 @@ export default {
         "riches": "Дорога-к-Богатству",
         "oldsite": "Старый сайт",
         "settings": "Настройки",
-        "thanks": ""
+        "thanks": "Благодарности"
     },
     "thanks": {
-        "title": "",
-        "description": "",
+        "title": "Благодарности",
+        "description": "Большая часть функциональности этого сайта не была бы возможной без оказанной мне помощи. Список ниже неполон и я благодарен всем, кто помог. Если вы считаете, что в этом списке кого-то не хватает, пожалуйста, свяжитесь со мной",
         "players": {
-            "title": "",
-            "description": ""
+            "title": "Игроки",
+            "description": "Я хотел бы поблагодарить всех игроков и исследователей, которые используют инструменты сбора данных о галактике, что сделало возможным создание этого и других сайтов"
         },
         "developers": {
-            "title": "",
-            "description": ""
+            "title": "Разработчики",
+            "description": "Помогли с разработкой"
         },
         "translators": {
-            "title": "",
-            "description": ""
+            "title": "Переводчики",
+            "description": "Те, кто помог с созданием версий сайтов на друних языках"
         },
         "patreon": {
-            "title": "",
-            "description": ""
+            "title": "Спонсоры",
+            "description": "Спонсоры, пожертвовавшие деньги на развитие и поддержание проекта"
         }
     },
     "settings": {
@@ -278,7 +278,7 @@ export default {
         "Carbon dioxide-rich": "Богатая углекислотой",
         "Helium": "Гелий",
         "Hot Argon": "Горячая аргоновая",
-        "Hot Argon-rich": "",
+        "Hot Argon-rich": "Горячая богатая аргоном",
         "Hot Carbon dioxide": "Горячая углекислотная",
         "Hot Carbon dioxide-rich": "Горячая богатая углекислотой",
         "Hot Silicate vapour": "Горячие силикатные пары",
@@ -463,8 +463,9 @@ export default {
         "Outbreak": "Эпидемия",
         "Famine": "Голод",
         "Civil war": "Гражданская война",
-        "Civil liberty": "",
+        "Civil liberty": "Гражданские свободы",
         "Civil unrest": "Гражданские беспорядки",
+        "Pirate attack": "Разгул пиратов",
         "War": "Война",
         "Election": "Выборы",
         "Lockdown": "Изоляция",

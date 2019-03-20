@@ -465,6 +465,7 @@ export default {
         "Civil war": "Civil war",
         "Civil liberty": "Civil liberty",
         "Civil unrest": "Civil unrest",
+        "Pirate attack": "Pirate attack",
         "War": "War",
         "Election": "Election",
         "Lockdown": "Lockdown",
