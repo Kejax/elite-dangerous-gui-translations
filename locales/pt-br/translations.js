@@ -3,7 +3,7 @@ export default {
         "thanks": "Agradeço ao <a href=\"https://edsm.net\">Elite: Dangerous Star Map</a> e <a href=\"https://eddb.io\">Elite: Dangerous Database</a> por fornecer as informações que alimentam esse site.",
         "copyright": "Copyright 2018-2019 Gareth Harper.",
         "features": "Se você tiver solicitações de recursos ou se encontrar bugs, você pode visitar a <a href=\"https://forums.frontier.co.uk/showthread.php/308674-Neutron-Highway-long-range-route-planner/\">página do fórum</a> dessa ferramenta ou mandar um e-mail para <a href=\"mailto:plotter@spansh.co.uk\">plotter@spansh.co.uk</a>.",
-        "donations": ""
+        "donations": "Se gostaria de fazer uma doação para manter esse site funcionando, visite a minha página do Patreon <a href=\"https://www.patreon.com/spansh\">aqui</a>."
     },
     "yes": "Sim",
     "navigation": {
@@ -20,26 +20,26 @@ export default {
         "riches": "Caminho para as riquezas",
         "oldsite": "Site antigo",
         "settings": "Configurações",
-        "thanks": ""
+        "thanks": "Agradecimentos"
     },
     "thanks": {
-        "title": "",
-        "description": "",
+        "title": "Obrigado",
+        "description": "Muitos recursos desse site não seriam possíveis sem a grande ajuda que recebo. Essa lista está longe de estar completa, mas sou grato por todos que ajudaram. Se achar que alguém não foi incluído, por favor entre em contato",
         "players": {
-            "title": "",
-            "description": ""
+            "title": "Jogadores",
+            "description": "Gostaria de agradecer a todos os jogadores e exploradores que usam as ferramentas de coleta de dados que nos permite coletar informação sobre a galáxia, o que faz sites como esse possíveis, mas alguns foram além."
         },
         "developers": {
-            "title": "",
-            "description": ""
+            "title": "Desenvolvedores",
+            "description": "Os outros desenvolvedores que ajudaram."
         },
         "translators": {
-            "title": "",
-            "description": ""
+            "title": "Tradutores",
+            "description": "Os tradutores que fizeram a versão desse site em sua língua materna."
         },
         "patreon": {
-            "title": "",
-            "description": ""
+            "title": "Patrons",
+            "description": "Os patrons que contribuiram com os custos de hospedagem e desenvolviento."
         }
     },
     "settings": {
@@ -277,7 +277,7 @@ export default {
         "Carbon dioxide-rich": "Rica em dióxido de carbono",
         "Helium": "Hélio",
         "Hot Argon": "Argônio quente",
-        "Hot Argon-rich": "",
+        "Hot Argon-rich": "Rico em argônio quente",
         "Hot Carbon dioxide": "Dióxido de carbono quente",
         "Hot Carbon dioxide-rich": "Rica em dióxido de carbono quente",
         "Hot Silicate vapour": "Vapor quente de silicatos",
@@ -463,7 +463,7 @@ export default {
         "Outbreak": "Surto",
         "Famine": "Fome",
         "Civil war": "Guerra civil",
-        "Civil liverty": "",
+        "Civil liberty": "Liberdade civil",
         "Civil unrest": "Inquietação civil",
         "War": "Guerra",
         "Election": "Eleição",
@@ -498,8 +498,8 @@ export default {
         "Exploited": "Explorado",
         "Contested": "Contestado",
         "Control": "Controle",
-        "HomeSystem": "",
-        "Turmoil": ""
+        "HomeSystem": "Sistema natal",
+        "Turmoil": "Turbulência"
     },
     "reserve_level": {
         "Pristine" : "Primitiva",
