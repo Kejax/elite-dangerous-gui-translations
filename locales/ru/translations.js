@@ -499,8 +499,8 @@ export default {
         "Exploited": "Эксплуатируется",
         "Contested": "Под угрозой",
         "Control": "Контролируется",
-        "HomeSystem": "",
-        "Turmoil": ""
+        "HomeSystem": "Домашняя система",
+        "Turmoil": "Беспорядки"
     },
     "reserve_level": {
         "Pristine": "Обилие ресурсов",
