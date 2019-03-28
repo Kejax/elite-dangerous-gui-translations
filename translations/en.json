@@ -20,7 +20,9 @@
     "riches": "Road2Riches",
     "oldsite": "Old site",
     "settings": "Settings",
-    "thanks": "Thanks"
+    "thanks": "Thanks",
+    "toggle": "Toggle navigation"
+    
   },
   "thanks": {
     "title": "Thank You",

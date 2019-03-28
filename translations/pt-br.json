@@ -55,7 +55,7 @@
   "plotter": {
     "title": "Calculador de rotas de estrelas de nêutron",
     "description": "Essa página permite que você calcule a rota entre dois sistemas estelares diferentes. O resultado irá mostrar toda vez em que o mapa da galáxia deve ser aberto para calcular uma nova rota (por exemplo, quando estiver em uma estrela de nêutron). Estrelas de nêutron serão priorizadas, dessa forma essa ferramenta deve ser evitada caso a jornada tenha menos de 500 anos-luz (Você bem provavelmente será redirecionado para Jackson's Lighthouse primeiro se estiver na bolha da civilização).",
-    "warning": "Se a sua capacidade máxima ed salto for baixa (entre 10-20aL) você pode acabar indo para um sistema da qual não terá como sair. Seja cuidadoso quando traçar seus saltos e verifique se poderá sair do sistema quando estiver no mapa da galáxia"
+    "warning": "Se a sua capacidade máxima de salto for baixa (entre 10-20aL) você pode acabar indo para um sistema da qual não terá como sair. Seja cuidadoso quando traçar seus saltos e verifique se poderá sair do sistema quando estiver no mapa da galáxia"
   },
   "riches": {
     "title": "Caminho para as Riquezas",
