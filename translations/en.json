@@ -91,6 +91,19 @@
     "Water": "Water",
     "Water-rich": "Water-rich"
   },
+  "titles": {
+      "body_search": "Body Search",
+      "body_search_results": "Body Search Results",
+      "system_search": "System Search",
+      "system_search_results": "System Search Results",
+      "nearest": "Nearest Known System",
+      "plotter": "Neutron Plotter",
+      "plotter_results": "Neutron Plotter Route",
+      "thanks": "Thanks",
+      "riches": "Road to Riches",
+      "riches_results": "Road to Riches Route",
+      "main": "Elite: Dangerous Index"
+  },
   "atmosphere_composition": {
     "Ammonia": "Ammonia",
     "Argon": "Argon",
@@ -378,7 +391,7 @@
     "nearest": "Nearest System",
     "oldsite": "Old site",
     "plotter": "Plotter",
-    "riches": "Road2Riches",
+    "riches": "Road to Riches",
     "settings": "Settings",
     "stations": "Stations",
     "systems": "Systems",
