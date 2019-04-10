@@ -91,19 +91,6 @@
     "Water": "Water",
     "Water-rich": "Water-rich"
   },
-  "titles": {
-      "body_search": "Body Search",
-      "body_search_results": "Body Search Results",
-      "system_search": "System Search",
-      "system_search_results": "System Search Results",
-      "nearest": "Nearest Known System",
-      "plotter": "Neutron Plotter",
-      "plotter_results": "Neutron Plotter Route",
-      "thanks": "Thanks",
-      "riches": "Road to Riches",
-      "riches_results": "Road to Riches Route",
-      "main": "Elite: Dangerous Index"
-  },
   "atmosphere_composition": {
     "Ammonia": "Ammonia",
     "Argon": "Argon",
@@ -573,6 +560,19 @@
       "description": "The translators who have made the native language versions of this site.",
       "title": "Translators"
     }
+  },
+  "titles": {
+    "body_search": "Body Search",
+    "body_search_results": "Body Search Results",
+    "main": "Elite: Dangerous Index",
+    "nearest": "Nearest Known System",
+    "plotter": "Neutron Plotter",
+    "plotter_results": "Neutron Plotter Route",
+    "riches": "Road to Riches",
+    "riches_results": "Road to Riches Route",
+    "system_search": "System Search",
+    "system_search_results": "System Search Results",
+    "thanks": "Thanks"
   },
   "type": {
     "Planet": "Planet",
