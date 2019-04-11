@@ -111,6 +111,20 @@
     "No": "Нет",
     "Yes": "Да"
   },
+  "download": {
+    "body": "",
+    "distance": "",
+    "jumps": "",
+    "mapping_value": "",
+    "neutron": "",
+    "no": "",
+    "remaining": "",
+    "scan_value": "",
+    "subtype": "",
+    "system": "",
+    "terraform": "",
+    "yes": ""
+  },
   "economy": {
     "Agriculture": "Сельское хозяйство",
     "Colony": "Колония",
@@ -418,6 +432,7 @@
     "body_landmarks": "",
     "close": "",
     "copy_to_clipboard": "Скопировать",
+    "download": "",
     "fields_to_show": "Отображаемые поля",
     "first": "Начало",
     "galaxy_map_visits": "Количество посещений галактической карты: {total_visits}",

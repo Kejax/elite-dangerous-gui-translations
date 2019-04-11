@@ -111,6 +111,20 @@
     "No": "Não",
     "Yes": "Sim"
   },
+  "download": {
+    "body": "",
+    "distance": "",
+    "jumps": "",
+    "mapping_value": "",
+    "neutron": "",
+    "no": "",
+    "remaining": "",
+    "scan_value": "",
+    "subtype": "",
+    "system": "",
+    "terraform": "",
+    "yes": ""
+  },
   "economy": {
     "Agriculture": "Agricultura",
     "Colony": "Colônia",
@@ -418,6 +432,7 @@
     "body_landmarks": "",
     "close": "",
     "copy_to_clipboard": "Copiar para a área de transferência",
+    "download": "",
     "fields_to_show": "Campos para exibir",
     "first": "Primeiro",
     "galaxy_map_visits": "Números de visitas ao mapa da galáxia necessárias: {total_visits}",

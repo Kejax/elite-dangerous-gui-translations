@@ -111,6 +111,20 @@
     "No": "No",
     "Yes": "Yes"
   },
+  "download": {
+    "body": "Body Name",
+    "distance": "Distance To Arrival",
+    "jumps": "Jumps",
+    "mapping_value": "Estimated Mapping Value",
+    "neutron": "Neutron Star",
+    "no": "No",
+    "remaining": "Distance Remaining",
+    "scan_value": "Estimated Scan Value",
+    "subtype": "Body Subtype",
+    "system": "System Name",
+    "terraform": "Is Terraformable",
+    "yes": "Yes"
+  },
   "economy": {
     "Agriculture": "Agriculture",
     "Colony": "Colony",
@@ -418,6 +432,7 @@
     "body_landmarks": "{name} Landmarks",
     "close": "Close",
     "copy_to_clipboard": "Copy to clipboard",
+    "download": "Download as CSV",
     "fields_to_show": "Fields to show",
     "first": "First",
     "galaxy_map_visits": "Number of visits to the galaxy map required: {total_visits}",
