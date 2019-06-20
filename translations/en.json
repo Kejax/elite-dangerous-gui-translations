@@ -158,6 +158,7 @@
   },
   "fields": {
     "add_atmosphere_composition_filter": "Add atmosphere composition filter",
+    "add_destination": "Add Destination",
     "add_material_filter": "Add material filter",
     "add_sort_field": "Add sort field",
     "add_via": "Add Via",
@@ -180,6 +181,7 @@
     "controlling_minor_faction": "Controlling Faction",
     "coordinates": "Reference Coordinates",
     "cumulative_profit": "Cumulative Profit",
+    "delete_destination": "Delete Destination",
     "delete_via": "Delete Via",
     "destination_system": "Destination System",
     "distance": "Distance (LY)",
@@ -462,21 +464,25 @@
   },
   "navigation": {
     "bodies": "Bodies",
+    "donations": "Donations",
     "language": "Language",
     "login": "Login",
     "logout": "Logout",
     "map": "Map",
     "nearest": "Nearest System",
     "oldsite": "Old site",
-    "plotter": "Plotter",
+    "plotter": "Neutron Plotter",
     "riches": "Road to Riches",
+    "search": "Search",
     "settings": "Settings",
     "stations": "Stations",
     "systems": "Systems",
     "thanks": "Thanks",
     "theme": "Theme",
     "toggle": "Toggle navigation",
-    "trade": "Trade"
+    "tourist": "Tourist Planner",
+    "trade": "Trade Planner",
+    "routers": "Route Planners"
   },
   "nearest": {
     "description": "This page will allow you find the nearest known system to a set of coordinates.",
@@ -687,8 +693,14 @@
     "system_search": "System Search",
     "system_search_results": "System Search Results",
     "thanks": "Thanks",
+    "tourist": "Tourist Planner",
+    "tourist_results": "Tourist Planner Route",
     "trade": "Trade Planner",
     "trade_results": "Trade Planner Results"
+  },
+  "tourist": {
+      "description": "This page will allow you to plan a route between several systems you wish to visit in an optimal order.",
+      "title": "Tourist Router"
   },
   "trade": {
       "copy_destination_to_clipboard": "Copy destination system name {system} to clipboard",
