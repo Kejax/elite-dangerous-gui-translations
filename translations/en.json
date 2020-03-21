@@ -1113,6 +1113,7 @@
     "copy_to_clipboard": "Copy {system} to clipboard",
     "create_route": "Create a tourist route from this search",
     "download": "Download as CSV",
+    "estimated_jumps": "Estimated number of jumps: {jumps}",
     "fields_to_show": "Fields to show",
     "first": "First",
     "galaxy_map_visits": "Number of visits to the galaxy map required: {total_visits}",
