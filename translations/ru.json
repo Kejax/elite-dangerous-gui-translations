@@ -236,7 +236,7 @@
     "system_name": "Фильтр имени системы, например Col выберет Col 285 Sector IY-W b16-6, но не выберет Colonia"
   },
   "footer": {
-    "copyright": "Авторские права 2018 Gareth Harper.",
+    "copyright": "Авторские права 2018-2020 Gareth Harper.",
     "donations": "Если вы хотите пожертвовать средства на обновление и работу этого сайта, вы можете сделать это на <a href=\"https://www.patreon.com/spansh\">Patreon</a>.",
     "features": "Предложения и сообщения об ошибках принимаются на <a href=\"https://forums.frontier.co.uk/showthread.php/308674-Neutron-Highway-long-range-route-planner/\">форуме</a> либо по почте: <a href=\"mailto:plotter@spansh.co.uk\">plotter@spansh.co.uk</a>.",
     "thanks": "Автор выражает благодарность <a href=\"https://edsm.net\">Elite: Dangerous Star Map</a> и <a href=\"https://eddb.io\">Elite: Dangerous Database</a>, предоставившим данные для этого сайта."

@@ -236,7 +236,7 @@
     "system_name": "Use este campo para filtrar corpos no sistema com palavras em comum. Ex.: Col resulta em Col 285 Sector IY-W b16-6, mas não Colonia."
   },
   "footer": {
-    "copyright": "Copyright 2018-2019 Gareth Harper.",
+    "copyright": "Copyright 2018-2020 Gareth Harper.",
     "donations": "Se gostaria de fazer uma doação para manter esse site funcionando, visite a minha página do Patreon <a href=\"https://www.patreon.com/spansh\">aqui</a>.",
     "features": "Se você tiver solicitações de recursos ou se encontrar bugs, você pode visitar a <a href=\"https://forums.frontier.co.uk/showthread.php/308674-Neutron-Highway-long-range-route-planner/\">página do fórum</a> dessa ferramenta ou mandar um e-mail para <a href=\"mailto:plotter@spansh.co.uk\">plotter@spansh.co.uk</a>.",
     "thanks": "Agradeço ao <a href=\"https://edsm.net\">Elite: Dangerous Star Map</a> e <a href=\"https://eddb.io\">Elite: Dangerous Database</a> por fornecer as informações que alimentam esse site."
