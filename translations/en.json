@@ -113,8 +113,9 @@
   "belts": {
       "add_field": "Add filter",
       "remove_field": "Remove filter",
-      "inner_radius": "Inner Radius",
-      "outer_radius": "Outer Radius",
+      "inner_radius": "Inner Radius (m)",
+      "mass": "Mass (Mt)",
+      "outer_radius": "Outer Radius (m)",
       "select_type": "Select type",
       "type": "Type",
       "types": {
@@ -123,6 +124,15 @@
           "Metallic": "Metallic",
           "Rocky": "Rocky"
       }
+  },
+  "body": {
+      "belts": "Belts",
+      "body": "Body",
+      "composition": "Composition",
+      "landmarks": "Landmarks",
+      "not_found": "Body not found",
+      "no_id64": "No Body ID provided",
+      "rings": "Rings"
   },
   "boolean": {
     "Any": "Any",
@@ -462,6 +472,7 @@
     "Toxic Waste": "Toxic Waste",
     "Trade Data": "Trade Data",
     "Trinkets of Hidden Fortune": "Trinkets of Hidden Fortune",
+    "Tritium": "Tritium",
     "Ultra-Compact Processor Prototypes": "Ultra-Compact Processor Prototypes",
     "Unstable Data Core": "Unstable Data Core",
     "Uraninite": "Uraninite",
@@ -497,12 +508,14 @@
     "distance": "Distance To Arrival",
     "distance_travelled": "Distance",
     "fuel_used": "Fuel Used",
+    "fuel_remaining": "Fuel Left",
     "icy_ring": "Icy Ring",
     "jumps": "Jumps",
     "mapping_value": "Estimated Mapping Value",
     "neutron": "Neutron Star",
     "no": "No",
     "pristine": "Pristine",
+    "refuel": "Refuel",
     "remaining": "Distance Remaining",
     "restock_tritium": "Restock Tritium",
     "scan_value": "Estimated Scan Value",
@@ -531,6 +544,11 @@
     "Terraforming": "Terraforming",
     "Tourism": "Tourism"
   },
+  "exact-plotter": {
+    "description": "This page will allow you to plot between two different star systems.  It will attempt to plot you an exact route, including fuel usage, neutron supercharges and injection boosts if so desired.",
+    "title": "Galaxy Plotter",
+    "warning": "This router are in beta and the results are not guaranteed."
+  },
   "fields": {
     "add_atmosphere_composition_filter": "Add atmosphere composition filter",
     "add_destination": "Add Destination",
@@ -553,7 +571,7 @@
     "body_name": "Body Name",
     "buy_price": "Buy Price",
     "calculate": "Calculate",
-    "completed": "Completed",
+    "completed": "Done",
     "commodity": "Commodity",
     "commodity_not_found": "Commodity not found",
     "controlling_minor_faction": "Controlling Faction",
@@ -579,7 +597,7 @@
     "flying_time": "{time} flying time",
     "fuel_used": "Fuel Used (tonnes)",
     "fuel_used_description": "Tritium used in the jump",
-    "fuel_remaining": "Fuel (tonnes)",
+    "fuel_remaining": "Fuel Left (tonnes)",
     "fuel_remaining_description": "Tritium currently in the fuel tank.  You may have to transfer from the market to get it to this level",
     "full_spectral_class": "Full Spectral Class",
     "government": "Government",
@@ -591,16 +609,23 @@
     "icy_ring": "Icy ring",
     "icy_ring_description": "Does the system have an icy ring?",
     "import_commodities": "Import Commodities",
+    "influence": "Influence",
     "is_landable": "Landable",
     "is_main_star": "Main Star",
     "is_planetary": "Planetary",
+    "is_supercharged": "Already Supercharged",
+    "is_supercharged_description": "Is your ship already supercharged?",
     "jumps": "Jumps",
+    "jumps_remaining": "Jumps Left",
     "jumps_description": "Estimated number of jumps to this system.",
     "landmark_subtype": "Landmark Subtype",
     "landmark_type": "Landmark Type",
     "landmarks": "Landmarks",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
     "loop": "Loop",
     "loop_description": "Force the route to return to the starting system.",
+    "luminosity_class": "Luminosity Class",
     "main_fields": "Main Fields",
     "market": "Market Commodity",
     "market_capacity": "Market Capacity",
@@ -632,6 +657,7 @@
     "neutron": "Neutron",
     "neutron_description": "Is the star a neutron star?",
     "outfitting_updated_at": "Outfitting Last Updated At",
+    "orbital_period": "Orbital period (days)",
     "permit": "Allow Permit Systems",
     "permit_description": "Allow systems which require permits to be included in the run",
     "population": "Population",
@@ -648,16 +674,19 @@
     "reference_coordinates": "Reference Coordinates",
     "reference_system": "Reference System",
     "refuel": "Refuel?",
-    "refuel_description": "Do you need to get more tritium?",
+    "refuel_description": "Do you need to refuel?",
     "region": "Region",
     "remaining": "Remaining (LY)",
     "requires_large_pad": "Requires Large Pad",
     "requires_large_pad_description": "Filter out stations which do not have a large pad",
     "reserve_level": "Reserve Level",
     "reset": "Reset",
+    "restock": "Restock?",
+    "restock_description": "Do you need to restock tritium?",
     "reverse": "Reverse Route",
     "rings": "Rings",
     "ring_fields": "Ring filters",
+    "rotational_period": "Rotational period",
     "search": "Search",
     "search_radius": "Radius (LY)",
     "search_radius_description": "This is the distance in LY around which the plotter will look for valuable worlds for you to visit.  A value of 25 LY tends to give a nice balance for A to B routes keeping the number of jumps reasonbly low whilst still giving a nice payout.  For circular routes (leaving destination blank) you will probably want to increase this to 100-500 LY.",
@@ -698,10 +727,13 @@
     "sell_price": "Sell Price",
     "services": "Services",
     "ships": "Ships",
+    "ship_build": "Ship Build",
+    "ship_build_description": "Paste ship build JSON exported from <a href=\"https://coriolis.io\">https://coriolis.io</a>",
     "ship_price": "Ship Price",
     "shipyard_updated_at": "Shipyard Last Updated At",
     "solar_masses": "Solar Masses",
     "solar_radius": "Solar Radius",
+    "solid_composition": "Solid Composition",
     "sorting": "Sorting Fields",
     "sorting_fields": "Sorting",
     "source_system": "Source System",
@@ -713,6 +745,7 @@
     "subtype": "Subtype",
     "summary": "Search summary",
     "supply": "Supply",
+    "surface_pressure": "Surface pressure (Atmospheres)",
     "surface_temperature": "Surface temperature (K)",
     "system_name": "System Name",
     "system_power": "System Power",
@@ -723,6 +756,8 @@
     "terraforming_state": "Terraforming State",
     "timestamp": "{from} to {to}",
     "total_profit": "Total Profit",
+    "time_taken": "Estimated Time Taken",
+    "time_remaining": "Estimated Time Remaining",
     "tritium_fuel": "Tritium in tank",
     "tritium_fuel_description": "The amount of tritium in your fuel tank",
     "tritium_market": "Tritium in market",
@@ -731,8 +766,12 @@
     "unique": "Avoid Loops",
     "unique_description": "Prevent the system revisiting stations which are already in the route",
     "updated_at": "Last Updated At",
+    "use_injections": "Use FSD Injections",
+    "use_injections_description": "Use FSD synthesis to boost when a neutron star is not available.",
     "use_mapping_value": "Use Mapping Value",
     "use_mapping_value_description": "Use the mapping value rather than the scan value",
+    "use_supercharge": "Use Supercharge",
+    "use_supercharge_description": "Use neutron stars to supercharge your FSD",
     "via": "Via System",
     "volcanism_type": "Volcanism",
     "x": "X",
@@ -750,7 +789,7 @@
     "system_name": "Use this to filter for bodies in a system with a word matching ie Col would match Col 285 Sector IY-W b16-6 but not Colonia."
   },
   "fleet-carrier": {
-    "description": "This page will allow you to plot between two different star systems for your fleet carrier.  The result will show you every system you need to route to.  It will also let you know when you should gather more fuel.",
+    "description": "This page will allow you to plot between two different star systems for your fleet carrier.  The result will show you every system you need to route to.  It will also let you know when you should gather more fuel.  Time estimates are based on 20 minutes per jump and yielding 150 tonnes of tritium per hour mining for a single player.",
     "title": "Fleet Carrier Router",
     "warning": "This router (and fleet carriers themselves) are in beta and the results are not guaranteed."
   },
@@ -758,7 +797,7 @@
     "copyright": "Copyright 2018-2020 Gareth Harper.",
     "donations": "If you would like to donate towards keeping this site updated and running you may check out my patreon page <a href=\"https://www.patreon.com/spansh\">here</a>.",
     "features": "If you have feature requests or find bugs you can visit the <a href=\"https://forums.frontier.co.uk/showthread.php/308674-Neutron-Highway-long-range-route-planner/\">forum thread</a> for this tool or you can email <a href=\"mailto:plotter@spansh.co.uk\">plotter@spansh.co.uk</a>.",
-    "thanks": "Thanks to <a href=\"https://edsm.net\">Elite: Dangerous Star Map</a> and <a href=\"https://eddb.io\">Elite: Dangerous Database</a> for providing the data which powers this website."
+    "thanks": "Thanks to all of the players and explorers who provide the data which powers this website."
   },
   "government": {
     "Anarchy": "Anarchy",
@@ -774,6 +813,7 @@
     "Patronage": "Patronage",
     "Prison": "Prison",
     "Prison Colony": "Prison Colony",
+    "Private Ownership": "Private Ownership",
     "Theocracy": "Theocracy",
     "Workshop (Engineer)": "Workshop (Engineer)"
   },
@@ -1041,6 +1081,7 @@
     "bodies": "Bodies",
     "donations": "Donations",
     "dumps": "Data Dumps",
+    "exact-plotter": "Galaxy Plotter",
     "fleet-carrier": "Fleet Carrier Router",
     "language": "Language",
     "login": "Login",
@@ -1065,6 +1106,7 @@
     "description": "This page will allow you find the nearest known system to a set of coordinates.",
     "title": "Nearest Known System"
   },
+  "no": "No",
   "plotter": {
     "description": "This page will allow you to plot between two different star systems.  The result will show you every time you need to go to the galaxy map in order to plot a new route (for instance when you are at a neutron star).  It will prioritise neutron stars so should be avoided for journeys which are lower than 500 light years (It will likely try to route you to Jackson's Lighthouse first if you're in the bubble).",
     "title": "Neutron Router",
@@ -1114,13 +1156,15 @@
     "Sagittarius-Carina Arm": "Sagittarius-Carina Arm",
     "Sanguineous Rim": "Sanguineous Rim",
     "Temple": "Temple",
+    "Tenebrae": "Tenebrae",
     "The Abyss": "The Abyss",
     "The Conduit": "The Conduit",
     "The Formidine Rift": "The Formidine Rift",
     "The Veils": "The Veils",
     "The Void": "The Void",
     "Trojan Belt": "Trojan Belt",
-	"Vulcan Gate": "Vulcan Gate"
+	"Vulcan Gate": "Vulcan Gate",
+    "Xibalba": "Xibalba"
   },
   "reserve_level": {
     "Common": "Common",
@@ -1143,6 +1187,7 @@
     "create_route": "Create a tourist route from this search",
     "download": "Download as CSV",
     "estimated_jumps": "Estimated Jumps: {jumps}",
+    "estimated_time": "Estimated Time: {time}",
     "fields_to_show": "Fields to show",
     "first": "First",
     "galaxy_map_visits": "Number of visits to the galaxy map required: {total_visits}",
@@ -1165,14 +1210,16 @@
   "riches": {
     "blank": "Leave destination blank in order to create a circular tour starting at your source system and returning there at the end.",
     "guides": "You can find some guides and videos for using the FSS and DSS <a href=\"https://forums.frontier.co.uk/showthread.php/464149-The-FSS-A-pictoral-guide\">here</a> and <a href=\"https://forums.frontier.co.uk/showthread.php/465649-Setup-and-Use-of-the-FSS-and-DSS-With-Demonstration-Videos\">here</a>.",
+    "low_results": "The number of systems returned is less than you asked for.  Try increasing the radius of the search in order to find more bodies.  If you still do not get enough results you may have set the minimim scan value too high.",
     "title": "Road 2 Riches",
     "warning": "You should decide if you want to DSS (Detailed Surface Scanner which requires you to travel to the body in system and surface map) or simply FSS (Full Spectrum Scanner from the system jump in point).  FSS is faster for each system but will pay substantially less credits.  The checkbox for \"Use Mapping Value\" will rank bodies by DSS reward rather then FSS reward."
   },
   "rings": {
       "add_field": "Add filter",
       "remove_field": "Remove filter",
-      "inner_radius": "Inner Radius",
-      "outer_radius": "Outer Radius",
+      "inner_radius": "Inner Radius (m)",
+      "mass": "Mass (Mt)",
+      "outer_radius": "Outer Radius (m)",
       "select_type": "Select type",
       "type": "Type",
       "types": {
@@ -1189,15 +1236,20 @@
       "Crew Lounge": "Crew Lounge",
       "Dock": "Dock",
       "Facilitator": "Facilitator",
+      "Fleet Carrier Fuel": "Fleet Carrier Fuel",
+      "Fleet Carrier Management": "Fleet Carrier Management",
+      "Fleet Carrier Vendor": "Fleet Carrier Vendor",
       "Flight Controller": "Flight Controller",
       "Interstellar Factors Contact": "Interstellar Factors Contact",
       "Market": "Market",
       "Material Trader": "Material Trader",
       "Missions": "Missions",
       "Missions Generated": "Missions Generated",
+      "Module Packs": "Module Packs",
       "On Dock Mission": "On Dock Mission",
       "Outfitting": "Outfitting",
       "Powerplay": "Powerplay",
+      "Redemption Office": "Redemption Office",
       "Refuel": "Refuel",
       "Repair": "Repair",
       "Restock": "Restock",
@@ -1264,6 +1316,11 @@
     "delete_help": "Delete your user account and any associated data.",
     "delete_user": "Delete User"
   },
+  "solid_composition": {
+      "Ice": "Ice",
+      "Metal": "Metal",
+      "Rock": "Rock"
+  },
   "sorting": {
     "asc": "Ascending",
     "desc": "Descending"
@@ -1295,6 +1352,7 @@
   "station_type": {
     "Asteroid base": "Asteroid base",
     "Coriolis Starport": "Coriolis Starport",
+    "Drake-Class Carrier": "Drake-Class Carrier",
     "Mega ship": "Mega ship",
     "Ocellus Starport": "Ocellus Starport",
     "Orbis Starport": "Orbis Starport",
@@ -1365,6 +1423,15 @@
     "Wolf-Rayet Star": "Wolf-Rayet Star",
     "Y (Brown dwarf) Star": "Y (Brown dwarf) Star"
   },
+  "system": {
+      "bodies": "Bodies ({size})",
+      "factions": "Factions ({size})",
+      "not_found": "System not found",
+      "no_id64": "No system ID provided",
+      "stations": "Stations ({size})",
+      "system": "System",
+      "title": "System"
+  },
   "terraforming_state": {
     "Candidate for terraforming": "Candidate for terraforming",
     "Not terraformable": "Not terraformable",
@@ -1375,7 +1442,7 @@
   "thanks": {
     "description": "A lot of the features on this site would not have been possible without the extensive help I've received.  This list isn't exhaustive and I'm grateful to everyone who has helped.  If you feel someone has been left out then please contact me.",
     "developers": {
-      "description": "The other developers who have helped.",
+      "description": "The other developers who have helped by providing data dumps, information and advice.",
       "title": "Developers"
     },
     "patreon": {
@@ -1393,9 +1460,12 @@
     }
   },
   "titles": {
+    "body": "Body",
     "body_search": "Body Search",
     "body_search_results": "Body Search Results",
     "dumps": "Data Dumps",
+    "exact_plotter": "Galaxy Plotter",
+    "exact_plotter_results": "Galaxy Plotter Results",
     "fleet_carrier": "Fleet Carrier",
     "fleet_carrier_results": "Fleet Carrier Route",
     "main": "Elite: Dangerous Index",
@@ -1404,8 +1474,10 @@
     "plotter_results": "Neutron Plotter Route",
     "riches": "Road to Riches",
     "riches_results": "Road to Riches Route",
+    "station": "Station",
     "station_search": "Station Search",
     "station_search_results": "Station Search Results",
+    "system": "System",
     "system_search": "System Search",
     "system_search_results": "System Search Results",
     "thanks": "Thanks",
@@ -1421,7 +1493,7 @@
   "trade": {
       "copy_destination_to_clipboard": "Copy destination system name {system} to clipboard",
       "copy_source_to_clipboard": "Copy source system name {system} to clipboard",
-      "finishing_system": "Then fly to {system} ({station}) {distance} LY",
+      "finishing_system": "Then fly to <a href=\"{link}\">{system}</a> ({station}) {distance} LY",
       "distance": "{distance} LY",
       "flying_instructions": "Fly to {station} (Distance from arrival {distance}LS, {time} flying time).",
       "purchase_instructions": "Sell everything in your hold and buy the commodities listed below.",
@@ -1429,8 +1501,8 @@
       "no_results": "Could not find any trade routes",
       "route": "Fly from {start_system} ({start_station}) to {end_system} ({end_station}) {distance} LY",
       "source_required": "Source system is required",
-      "first_system": "Starting at {system} ({station}) updated {updated_at}",
-      "starting_system": "{system} ({station}) updated {updated_at}"
+      "first_system": "Starting at <a href=\"{link}\">{system}</a> ({station}) updated {updated_at}",
+      "starting_system": "<a href=\"{link}\">{system}</a> ({station}) updated {updated_at}"
   },
   "type": {
     "Planet": "Planet",
