@@ -527,9 +527,21 @@
   "dumps": {
       "description": "Nightly dumps of galaxy related data",
       "filename": "Filename",
+      "file_description": "Description",
       "modified": "Generated",
       "title": "Data Dumps",
-      "size": "Filesize"
+      "size": "Filesize",
+      "files": {
+          "galaxy.json.bz2": "The entire galaxy in bz2 format (No longer updated)",
+          "galaxy_populated.json.bz2": "Systems with population greater than 0 in bz2 format (No longer updated)",
+          "galaxy_stations.json.bz2": "Systems with a station in bz2 format (including fleet carriers, no longer updated)",
+          "galaxy.json.gz": "The entire galaxy in gzip format",
+          "galaxy_populated.json.gz": "Systems with population greater than 0 in gzip format",
+          "galaxy_stations.json.gz": "Systems with a station in gzip format (including fleet carriers",
+          "galaxy_1day.json.gz": "Systems where any information within that system was updated in the last 24 hours in gzip format",
+          "galaxy_7days.json.gz": "Systems where any information within that system was updated in the last 7 days in gzip format",
+          "galaxy_1month.json.gz": "Systems where any information within that system was updated in the last 32 days in gzip format"
+      }
   },
   "economy": {
     "Agriculture": "Agriculture",
@@ -547,7 +559,7 @@
   "exact-plotter": {
     "description": "This page will allow you to plot between two different star systems.  It will attempt to plot you an exact route, including fuel usage, neutron supercharges and injection boosts if so desired.",
     "title": "Galaxy Plotter",
-    "warning": "This router are in beta and the results are not guaranteed."
+    "warning": "This router is in beta and the results are not guaranteed."
   },
   "fields": {
     "add_atmosphere_composition_filter": "Add atmosphere composition filter",
